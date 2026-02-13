@@ -1,551 +1,551 @@
-Nom,Ticker,Coef,Days
-BitCoin,BTC-EUR,1.2,730.0
-Ethereum,ETH-EUR,1.0,730.0
-Solana,SOL-EUR,1.0,730.0
-Accor,AC.PA,0.85,730.0
-Air Liquide,AI.PA,1.0,380.0
-Airbus,AIR.PA,1.0,730.0
-ArcelorMittal,MT.AS,1.0,730.0
-AXA,CS.PA,1.0,730.0
-BNP Paribas,BNP.PA,1.0,730.0
-Bouygues,EN.PA,1.0,730.0
-Bureau Veritas,BVI.PA,1.0,730.0
-Capgemini,CAP.PA,1.0,730.0
-Carrefour,CA.PA,1.0,730.0
-Crédit Agricole,ACA.PA,1.0,730.0
-Danone,BN.PA,1.8,730.0
-Dassault System,DSY.PA,2.0,730.0
-Edenred,EDEN.PA,1.0,730.0
-Engie,ENGI.PA,1.0,730.0
-EssilorLuxottica,EL.PA,1.0,730.0
-Eurofins Scientific,ERF.PA,1.0,730.0
-Exosens,EXENS.PA,1.0,730.0
-Hermès,RMS.PA,1.0,730.0
-Kering,KER.PA,1.0,730.0
-L'Oréal,OR.PA,1.0,730.0
-Legrand,LR.PA,1.0,730.0
-LVMH,MC.PA,1.0,730.0
-Michelin,ML.PA,1.0,730.0
-Orange,ORA.PA,1.0,730.0
-Pernod Ricard,RI.PA,1.0,730.0
-Publicis,PUB.PA,1.0,730.0
-Renault,RNO.PA,1.0,730.0
-Safran,SAF.PA,1.0,730.0
-Saint-Gobain,SGO.PA,1.0,730.0
-Sanofi,SAN.PA,1.0,730.0
-Schneider Electric,SU.PA,1.0,730.0
-Société Générale,GLE.PA,1.0,730.0
-Stellantis,STLAP.PA,1.0,730.0
-ST MicroElectronic,STMPA.PA,1.8,730.0
-Teleperformance,TEP.PA,1.2,730.0
-Thalès,HO.PA,1.2,730.0
-Total Energie,TTE.PA,1.0,730.0
-Unibail-Rodamco-Westfield,URW.PA,1.2,730.0
-Veolia,VIE.PA,1.2,730.0
-Vinci,DG.PA,1.2,730.0
-3M,MMM,1.2,730.0
-A. O. Smith,AOS,1.2,730.0
-Abbott Laboratories,ABT,1.2,730.0
-AbbVie,ABBV,1.2,730.0
-Accenture,ACN,1.2,730.0
-Adobe Inc.,ADBE,1.2,730.0
-Advanced Micro Devices,AMD,1.2,730.0
-AES Corporation,AES,1.2,730.0
-Aflac,AFL,1.2,730.0
-Agilent Technologies,A,1.2,730.0
-Air Products,APD,1.2,730.0
-Airbnb,ABNB,1.2,730.0
-Akamai Technologies,AKAM,1.2,730.0
-Albemarle Corporation,ALB,1.2,730.0
-Alexandria Real Estate Equities,ARE,1.2,730.0
-Align Technology,ALGN,1.2,730.0
-Allegion,ALLE,1.2,730.0
-Alliant Energy,LNT,1.2,730.0
-Allstate,ALL,1.2,730.0
-Alphabet,GOOGL,1.4,730.0
-Alphabet Inc. (Class C),GOOG,1.2,730.0
-Altria,MO,1.2,730.0
-Amazon,AMZN,1.2,730.0
-Amcor,AMCR,1.2,730.0
-Ameren,AEE,1.2,730.0
-American Electric Power,AEP,1.2,730.0
-American Express,AXP,1.2,730.0
-American International Group,AIG,1.2,730.0
-American Tower,AMT,1.2,730.0
-American Water Works,AWK,1.2,730.0
-Ameriprise Financial,AMP,1.2,730.0
-Ametek,AME,1.2,730.0
-Amgen,AMGN,1.2,730.0
-Amphenol,APH,1.2,730.0
-Analog Devices,ADI,1.2,730.0
-Aon plc,AON,1.2,730.0
-APA Corporation,APA,1.2,730.0
-Apollo Global Management,APO,1.2,730.0
-Apple Inc.,AAPL,1.2,730.0
-Applied Materials,AMAT,1.2,730.0
-AppLovin,APP,1.2,730.0
-Aptiv,APTV,1.2,730.0
-Arch Capital Group,ACGL,1.2,730.0
-Archer Daniels Midland,ADM,1.2,730.0
-Ares Management,ARES,1.2,730.0
-Arista Networks,ANET,1.2,730.0
-Arthur J. Gallagher & Co.,AJG,1.2,730.0
-Assurant,AIZ,1.2,730.0
-AT&T,T,1.2,730.0
-Atmos Energy,ATO,1.2,730.0
-Autodesk,ADSK,1.2,730.0
-Automatic Data Processing,ADP,1.2,730.0
-AutoZone,AZO,1.2,730.0
-AvalonBay Communities,AVB,1.2,730.0
-Avery Dennison,AVY,1.2,730.0
-Axon Enterprise,AXON,1.2,730.0
-Baker Hughes,BKR,1.2,730.0
-Ball Corporation,BALL,1.2,730.0
-Bank of America,BAC,1.2,730.0
-Baxter International,BAX,1.2,730.0
-Becton Dickinson,BDX,1.2,730.0
-Berkshire Hathaway,BRK.B,1.2,730.0
-Best Buy,BBY,1.2,730.0
-Bio-Techne,TECH,1.2,730.0
-Biogen,BIIB,1.2,730.0
-BlackRock,BLK,1.2,730.0
-Blackstone Inc.,BX,1.2,730.0
-"Block, Inc.",XYZ,1.2,730.0
-BNY Mellon,BK,1.2,730.0
-Boeing,BA,1.2,730.0
-Booking Holdings,BKNG,1.2,730.0
-Boston Scientific,BSX,1.2,730.0
-Bristol Myers Squibb,BMY,1.2,730.0
-Broadcom,AVGO,1.2,730.0
-Broadridge Financial Solutions,BR,1.2,730.0
-Brown & Brown,BRO,1.2,730.0
-Brown–Forman,BF.B,1.2,730.0
-Builders FirstSource,BLDR,1.2,730.0
-Bunge Global,BG,1.2,730.0
-"BXP, Inc.",BXP,1.2,730.0
-C.H. Robinson,CHRW,1.2,730.0
-Cadence Design Systems,CDNS,1.2,730.0
-Camden Property Trust,CPT,1.2,730.0
-Campbell's Company (The),CPB,1.2,730.0
-Capital One,COF,1.2,730.0
-Cardinal Health,CAH,1.2,730.0
-Carnival,CCL,1.2,730.0
-Carrier Global,CARR,1.2,730.0
-Carvana,CVNA,1.2,730.0
-Caterpillar Inc.,CAT,1.2,730.0
-Cboe Global Markets,CBOE,1.2,730.0
-CBRE Group,CBRE,1.2,730.0
-CDW Corporation,CDW,1.2,730.0
-Cencora,COR,1.2,730.0
-Centene Corporation,CNC,1.2,730.0
-CenterPoint Energy,CNP,1.2,730.0
-CF Industries,CF,1.2,730.0
-Charles River Laboratories,CRL,1.2,730.0
-Charles Schwab Corporation,SCHW,1.2,730.0
-Charter Communications,CHTR,1.2,730.0
-Chevron Corporation,CVX,1.2,730.0
-Chipotle Mexican Grill,CMG,1.2,730.0
-Chubb Limited,CB,1.2,730.0
-Church & Dwight,CHD,1.2,730.0
-Ciena,CIEN,1.2,730.0
-Cigna,CI,1.2,730.0
-Cincinnati Financial,CINF,1.2,730.0
-Cintas,CTAS,1.2,730.0
-Cisco,CSCO,1.2,730.0
-Citigroup,C,1.2,730.0
-Citizens Financial Group,CFG,1.2,730.0
-Clorox,CLX,1.2,730.0
-CME Group,CME,1.2,730.0
-CMS Energy,CMS,1.2,730.0
-Coca-Cola Company (The),KO,1.2,730.0
-Cognizant,CTSH,1.2,730.0
-Coinbase,COIN,1.2,730.0
-Colgate-Palmolive,CL,1.2,730.0
-Comcast,CMCSA,1.2,730.0
-Comfort Systems USA,FIX,1.2,730.0
-Conagra Brands,CAG,1.2,730.0
-ConocoPhillips,COP,1.2,730.0
-Consolidated Edison,ED,1.2,730.0
-Constellation Brands,STZ,1.2,730.0
-Constellation Energy,CEG,1.2,730.0
-Cooper Companies (The),COO,1.2,730.0
-Copart,CPRT,1.2,730.0
-Corning Inc.,GLW,1.2,730.0
-Corpay,CPAY,1.2,730.0
-Corteva,CTVA,1.2,730.0
-CoStar Group,CSGP,1.2,730.0
-Costco,COST,1.2,730.0
-Coterra,CTRA,1.2,730.0
-CRH plc,CRH,1.2,730.0
-CrowdStrike,CRWD,1.2,730.0
-Crown Castle,CCI,1.2,730.0
-CSX Corporation,CSX,1.2,730.0
-Cummins,CMI,1.2,730.0
-CVS Health,CVS,1.2,730.0
-Danaher Corporation,DHR,1.2,730.0
-Darden Restaurants,DRI,1.2,730.0
-Datadog,DDOG,1.2,730.0
-DaVita,DVA,1.2,730.0
-Deckers Brands,DECK,1.2,730.0
-Deere & Company,DE,1.2,730.0
-Dell Technologies,DELL,1.2,730.0
-Delta Air Lines,DAL,1.2,730.0
-Devon Energy,DVN,1.2,730.0
-Dexcom,DXCM,1.2,730.0
-Diamondback Energy,FANG,1.2,730.0
-Digital Realty,DLR,1.2,730.0
-Dollar General,DG,1.2,730.0
-Dollar Tree,DLTR,1.2,730.0
-Dominion Energy,D,1.2,730.0
-Domino's,DPZ,1.2,730.0
-DoorDash,DASH,1.2,730.0
-Dover Corporation,DOV,1.2,730.0
-Dow Inc.,DOW,1.2,730.0
-D. R. Horton,DHI,1.2,730.0
-DTE Energy,DTE,1.2,730.0
-Duke Energy,DUK,1.2,730.0
-DuPont,DD,1.2,730.0
-Eaton Corporation,ETN,1.2,730.0
-eBay Inc.,EBAY,1.2,730.0
-Ecolab,ECL,1.2,730.0
-Edison International,EIX,1.2,730.0
-Edwards Lifesciences,EW,1.2,730.0
-Electronic Arts,EA,1.2,730.0
-Elevance Health,ELV,1.2,730.0
-Emcor,EME,1.2,730.0
-Emerson Electric,EMR,1.2,730.0
-Entergy,ETR,1.2,730.0
-EOG Resources,EOG,1.2,730.0
-EPAM Systems,EPAM,1.2,730.0
-EQT Corporation,EQT,1.2,730.0
-Equifax,EFX,1.2,730.0
-Equinix,EQIX,1.2,730.0
-Equity Residential,EQR,1.2,730.0
-Erie Indemnity,ERIE,1.2,730.0
-Essex Property Trust,ESS,1.2,730.0
-Estée Lauder Companies (The),EL,1.2,730.0
-Everest Group,EG,1.2,730.0
-Evergy,EVRG,1.2,730.0
-Eversource Energy,ES,1.2,730.0
-Exelon,EXC,1.2,730.0
-Expand Energy,EXE,1.2,730.0
-Expedia Group,EXPE,1.2,730.0
-Expeditors International,EXPD,1.2,730.0
-Extra Space Storage,EXR,1.2,730.0
-ExxonMobil,XOM,1.2,730.0
-"F5, Inc.",FFIV,1.2,730.0
-FactSet,FDS,1.2,730.0
-Fair Isaac,FICO,1.2,730.0
-Fastenal,FAST,1.2,730.0
-Federal Realty Investment Trust,FRT,1.2,730.0
-FedEx,FDX,1.2,730.0
-Fidelity National Information Services,FIS,1.2,730.0
-Fifth Third Bancorp,FITB,1.2,730.0
-First Solar,FSLR,1.2,730.0
-FirstEnergy,FE,1.2,730.0
-Fiserv,FISV,1.2,730.0
-Ford Motor Company,F,1.2,730.0
-Fortinet,FTNT,1.2,730.0
-Fortive,FTV,1.2,730.0
-Fox Corporation (Class A),FOXA,1.2,730.0
-Fox Corporation (Class B),FOX,1.2,730.0
-Franklin Resources,BEN,1.2,730.0
-Freeport-McMoRan,FCX,1.2,730.0
-Galaxy Digital,GLXY,1.2,730.0
-Garmin,GRMN,1.2,730.0
-Gartner,IT,1.2,730.0
-GE Aerospace,GE,1.2,730.0
-GE HealthCare,GEHC,1.2,730.0
-GE Vernova,GEV,1.2,730.0
-Gen Digital,GEN,1.2,730.0
-Generac,GNRC,1.2,730.0
-General Dynamics,GD,1.2,730.0
-General Mills,GIS,1.2,730.0
-General Motors,GM,1.2,730.0
-Genuine Parts Company,GPC,1.2,730.0
-Gilead Sciences,GILD,1.2,730.0
-Global Payments,GPN,1.2,730.0
-Globe Life,GL,1.2,730.0
-GoDaddy,GDDY,1.2,730.0
-Goldman Sachs,GS,1.2,730.0
-Halliburton,HAL,1.2,730.0
-Hartford (The),HIG,1.2,730.0
-Hasbro,HAS,1.2,730.0
-HCA Healthcare,HCA,1.2,730.0
-Healthpeak Properties,DOC,1.2,730.0
-Henry Schein,HSIC,1.2,730.0
-Hershey Company (The),HSY,1.2,730.0
-Hewlett Packard Enterprise,HPE,1.2,730.0
-Hilton Worldwide,HLT,1.2,730.0
-Hologic,HOLX,1.2,730.0
-Home Depot (The),HD,1.2,730.0
-Honeywell,HON,1.2,730.0
-Hormel Foods,HRL,1.2,730.0
-Host Hotels & Resorts,HST,1.2,730.0
-Howmet Aerospace,HWM,1.2,730.0
-HP Inc.,HPQ,1.2,730.0
-Hubbell Incorporated,HUBB,1.2,730.0
-Humana,HUM,1.2,730.0
-Huntington Bancshares,HBAN,1.2,730.0
-Huntington Ingalls Industries,HII,1.2,730.0
-IBM,IBM,1.2,730.0
-IDEX Corporation,IEX,1.2,730.0
-Idexx Laboratories,IDXX,1.2,730.0
-Illinois Tool Works,ITW,1.2,730.0
-Incyte,INCY,1.2,730.0
-Ingersoll Rand,IR,1.2,730.0
-Insulet Corporation,PODD,1.2,730.0
-Intel,INTC,1.2,730.0
-Interactive Brokers,IBKR,1.2,730.0
-Intercontinental Exchange,ICE,1.2,730.0
-International Flavors & Fragrances,IFF,1.2,730.0
-International Paper,IP,1.2,730.0
-Intuit,INTU,1.2,730.0
-Intuitive Surgical,ISRG,1.2,730.0
-Invesco,IVZ,1.2,730.0
-Invitation Homes,INVH,1.2,730.0
-IQVIA,IQV,1.2,730.0
-Iron Mountain,IRM,1.2,730.0
-J.B. Hunt,JBHT,1.2,730.0
-Jabil,JBL,1.2,730.0
-Jack Henry & Associates,JKHY,1.2,730.0
-Jacobs Solutions,J,1.2,730.0
-Johnson & Johnson,JNJ,1.2,730.0
-Johnson Controls,JCI,1.2,730.0
-JPMorgan Chase,JPM,1.2,730.0
-Kenvue,KVUE,1.2,730.0
-Keurig Dr Pepper,KDP,1.2,730.0
-KeyCorp,KEY,1.2,730.0
-Keysight Technologies,KEYS,1.2,730.0
-Kimberly-Clark,KMB,1.2,730.0
-Kimco Realty,KIM,1.2,730.0
-Kinder Morgan,KMI,1.2,730.0
-KKR & Co.,KKR,1.2,730.0
-KLA Corporation,KLAC,1.2,730.0
-Kraft Heinz,KHC,1.2,730.0
-Kroger,KR,1.2,730.0
-L3Harris,LHX,1.2,730.0
-Labcorp,LH,1.2,730.0
-Lam Research,LRCX,1.2,730.0
-Lamb Weston,LW,1.2,730.0
-Las Vegas Sands,LVS,1.2,730.0
-Leidos,LDOS,1.2,730.0
-Lennar,LEN,1.2,730.0
-Lennox International,LII,1.2,730.0
-Lilly (Eli),LLY,1.2,730.0
-Linde plc,LIN,1.2,730.0
-Live Nation Entertainment,LYV,1.2,730.0
-Lockheed Martin,LMT,1.2,730.0
-Loews Corporation,L,1.2,730.0
-Lowe's,LOW,1.2,730.0
-Lululemon Athletica,LULU,1.2,730.0
-LyondellBasell,LYB,1.2,730.0
-M&T Bank,MTB,1.2,730.0
-Marathon Petroleum,MPC,1.2,730.0
-Marriott International,MAR,1.2,730.0
-Marsh McLennan,MRSH,1.2,730.0
-Martin Marietta Materials,MLM,1.2,730.0
-Masco,MAS,1.2,730.0
-Mastercard,MA,1.2,730.0
-Match Group,MTCH,1.2,730.0
-McCormick & Company,MKC,1.2,730.0
-McDonald's,MCD,1.2,730.0
-McKesson Corporation,MCK,1.2,730.0
-Medtronic,MDT,1.2,730.0
-Merck & Co.,MRK,1.2,730.0
-Meta Platforms,META,1.2,730.0
-MetLife,MET,1.2,730.0
-Mettler Toledo,MTD,1.2,730.0
-MGM Resorts,MGM,1.2,730.0
-Microchip Technology,MCHP,1.2,730.0
-Micron Technology,MU,1.2,730.0
-Microsoft,MSFT,1.2,730.0
-Mid-America Apartment Communities,MAA,1.2,730.0
-Moderna,MRNA,1.2,730.0
-Molina Healthcare,MOH,1.2,730.0
-Molson Coors Beverage Company,TAP,1.2,730.0
-Mondelez International,MDLZ,1.2,730.0
-Monolithic Power Systems,MPWR,1.2,730.0
-Monster Beverage,MNST,1.2,730.0
-Moody's Corporation,MCO,1.2,730.0
-Morgan Stanley,MS,1.2,730.0
-Mosaic Company (The),MOS,1.2,730.0
-Motorola Solutions,MSI,1.2,730.0
-MSCI Inc.,MSCI,1.2,730.0
-"Nasdaq, Inc.",NDAQ,1.2,730.0
-NetApp,NTAP,1.2,730.0
-Netflix,NFLX,1.2,730.0
-Newmont,NEM,1.2,730.0
-News Corp (Class A),NWSA,1.2,730.0
-News Corp (Class B),NWS,1.2,730.0
-NextEra Energy,NEE,1.2,730.0
-"Nike, Inc.",NKE,1.2,730.0
-NiSource,NI,1.2,730.0
-Nordson Corporation,NDSN,1.2,730.0
-Norfolk Southern,NSC,1.2,730.0
-Northern Trust,NTRS,1.2,730.0
-Northrop Grumman,NOC,1.2,730.0
-Norwegian Cruise Line Holdings,NCLH,1.2,730.0
-NRG Energy,NRG,1.2,730.0
-Nucor,NUE,1.2,730.0
-Nvidia,NVDA,1.2,730.0
-"NVR, Inc.",NVR,1.2,730.0
-NXP Semiconductors,NXPI,1.2,730.0
-O’Reilly Automotive,ORLY,1.2,730.0
-Occidental Petroleum,OXY,1.2,730.0
-Old Dominion,ODFL,1.2,730.0
-Omnicom Group,OMC,1.2,730.0
-ON Semiconductor,ON,1.2,730.0
-Oneok,OKE,1.2,730.0
-Oracle Corporation,ORCL,1.2,730.0
-Otis Worldwide,OTIS,1.2,730.0
-Paccar,PCAR,1.2,730.0
-Packaging Corporation of America,PKG,1.2,730.0
-Palantir Technologies,PLTR,1.2,730.0
-Palo Alto Networks,PANW,1.2,730.0
-Paramount Skydance Corporation,PSKY,1.2,730.0
-Parker Hannifin,PH,1.2,730.0
-Paychex,PAYX,1.2,730.0
-Paycom,PAYC,1.2,730.0
-PayPal,PYPL,1.2,730.0
-Pentair,PNR,1.2,730.0
-PepsiCo,PEP,1.2,730.0
-Pfizer,PFE,1.2,730.0
-PG&E Corporation,PCG,1.2,730.0
-Philip Morris International,PM,1.2,730.0
-Phillips 66,PSX,1.2,730.0
-Pinnacle West Capital,PNW,1.2,730.0
-PNC Financial Services,PNC,1.2,730.0
-Pool Corporation,POOL,1.2,730.0
-PPG Industries,PPG,1.2,730.0
-PPL Corporation,PPL,1.2,730.0
-Principal Financial Group,PFG,1.2,730.0
-Procore Tech,PCOR,1.2,730.0
-Procter & Gamble,PG,1.2,730.0
-Progressive Corporation,PGR,1.2,730.0
-Prologis,PLD,1.2,730.0
-Prudential Financial,PRU,1.2,730.0
-Public Service Enterprise Group,PEG,1.2,730.0
-PTC Inc.,PTC,1.2,730.0
-Public Storage,PSA,1.2,730.0
-PulteGroup,PHM,1.2,730.0
-Quanta Services,PWR,1.2,730.0
-Qualcomm,QCOM,1.2,730.0
-Quest Diagnostics,DGX,1.2,730.0
-Qnity Electronics,Q,1.2,730.0
-Ralph Lauren Corporation,RL,1.2,730.0
-Raymond James Financial,RJF,1.2,730.0
-RTX Corporation,RTX,1.2,730.0
-Realty Income,O,1.2,730.0
-Regency Centers,REG,1.2,730.0
-Regeneron Pharmaceuticals,REGN,1.2,730.0
-Regions Financial Corporation,RF,1.2,730.0
-Republic Services,RSG,1.2,730.0
-ResMed,RMD,1.2,730.0
-Revvity,RVTY,1.2,730.0
-Robinhood Markets,HOOD,1.2,730.0
-Rockwell Automation,ROK,1.2,730.0
-"Rollins, Inc.",ROL,1.2,730.0
-Roper Technologies,ROP,1.2,730.0
-Ross Stores,ROST,1.2,730.0
-Royal Caribbean Group,RCL,1.2,730.0
-S&P Global,SPGI,1.2,730.0
-Salesforce,CRM,1.2,730.0
-Sandisk,SNDK,1.2,730.0
-SBA Communications,SBAC,1.2,730.0
-Schlumberger,SLB,1.2,730.0
-Seagate Technology,STX,1.2,730.0
-Sempra,SRE,1.2,730.0
-Semtech,SMTC,1.1,730.0
-ServiceNow,NOW,1.2,730.0
-Sherwin-Williams,SHW,1.2,730.0
-Simon Property Group,SPG,1.2,730.0
-Skyworks Solutions,SWKS,1.2,730.0
-J.M. Smucker Company (The),SJM,1.2,730.0
-Smurfit Westrock,SW,1.2,730.0
-Snap-on,SNA,1.2,730.0
-Solventum,SOLV,1.2,730.0
-Southern Company,SO,1.2,730.0
-Southwest Airlines,LUV,1.2,730.0
-Stanley Black & Decker,SWK,1.2,730.0
-Starbucks,SBUX,1.2,730.0
-State Street Corporation,STT,1.2,730.0
-Steel Dynamics,STLD,1.2,730.0
-Steris,STE,1.2,730.0
-Stryker Corporation,SYK,1.2,730.0
-Supermicro,SMCI,1.2,730.0
-Synchrony Financial,SYF,1.2,730.0
-Synopsys,SNPS,1.2,730.0
-Sysco,SYY,1.2,730.0
-T-Mobile US,TMUS,1.2,730.0
-T. Rowe Price,TROW,1.2,730.0
-Take-Two Interactive,TTWO,1.2,730.0
-"Tapestry, Inc.",TPR,1.2,730.0
-Targa Resources,TRGP,1.2,730.0
-Target Corporation,TGT,1.2,730.0
-TE Connectivity,TEL,1.2,730.0
-Teledyne Technologies,TDY,1.2,730.0
-Teradyne,TER,1.2,730.0
-"Tesla, Inc.",TSLA,1.2,730.0
-Texas Instruments,TXN,1.2,730.0
-Texas Pacific Land Corporation,TPL,1.2,730.0
-Textron,TXT,1.2,730.0
-Thermo Fisher Scientific,TMO,1.2,730.0
-TJX Companies,TJX,1.2,730.0
-TKO Group Holdings,TKO,1.2,730.0
-Trade Desk (The),TTD,1.2,730.0
-Tractor Supply,TSCO,1.2,730.0
-Trane Technologies,TT,1.2,730.0
-TransDigm Group,TDG,1.2,730.0
-Travelers Companies (The),TRV,1.2,730.0
-Trimble Inc.,TRMB,1.2,730.0
-Truist Financial,TFC,1.2,730.0
-Tyler Technologies,TYL,1.2,730.0
-Tyson Foods,TSN,1.2,730.0
-U.S. Bancorp,USB,1.2,730.0
-Uber,UBER,1.2,730.0
-"UDR, Inc.",UDR,1.2,730.0
-Ulta Beauty,ULTA,1.2,730.0
-Union Pacific Corporation,UNP,1.2,730.0
-United Airlines Holdings,UAL,1.2,730.0
-United Parcel Service,UPS,1.2,730.0
-United Rentals,URI,1.2,730.0
-UnitedHealth Group,UNH,1.2,730.0
-Universal Health Services,UHS,1.2,730.0
-Valero Energy,VLO,1.2,730.0
-Ventas,VTR,1.2,730.0
-Veralto,VLTO,1.2,730.0
-Verisign,VRSN,1.2,730.0
-Verisk Analytics,VRSK,1.2,730.0
-Verizon,VZ,1.2,730.0
-Vertex Pharmaceuticals,VRTX,1.2,730.0
-Viatris,VTRS,1.2,730.0
-Vici Properties,VICI,1.2,730.0
-Visa Inc.,V,1.2,730.0
-Vistra Corp.,VST,1.2,730.0
-Vulcan Materials Company,VMC,1.2,730.0
-W. R. Berkley Corporation,WRB,1.2,730.0
-W. W. Grainger,GWW,1.2,730.0
-Wabtec,WAB,1.2,730.0
-Walmart,WMT,1.2,730.0
-Walt Disney Company (The),DIS,1.2,730.0
-Warner Bros. Discovery,WBD,1.2,730.0
-Waste Management,WM,1.2,730.0
-Waters Corporation,WAT,1.2,730.0
-WEC Energy Group,WEC,1.2,730.0
-Wells Fargo,WFC,1.2,730.0
-Welltower,WELL,1.2,730.0
-West Pharmaceutical Services,WST,1.2,730.0
-Western Digital,WDC,1.2,730.0
-Weyerhaeuser,WY,1.2,730.0
-"Williams-Sonoma, Inc.",WSM,1.2,730.0
-Williams Companies,WMB,1.2,730.0
-Willis Towers Watson,WTW,1.2,730.0
-"Workday, Inc.",WDAY,1.2,730.0
-Wynn Resorts,WYNN,1.2,730.0
-Xcel Energy,XEL,1.2,730.0
-Xylem Inc.,XYL,1.2,730.0
-Yum! Brands,YUM,1.2,730.0
-Zebra Technologies,ZBRA,1.2,730.0
-Zimmer Biomet,ZBH,1.2,730.0
-Zoetis,ZTS,1.2,730.0
+Nom;Ticker;Coef;Days
+BitCoin;BTC-EUR;1.2;730.0
+Ethereum;ETH-EUR;1.0;730.0
+Solana;SOL-EUR;1.0;730.0
+Accor;AC.PA;0.85;730.0
+Air Liquide;AI.PA;1.0;380.0
+Airbus;AIR.PA;1.0;730.0
+ArcelorMittal;MT.AS;1.0;730.0
+AXA;CS.PA;1.0;730.0
+BNP Paribas;BNP.PA;1.0;730.0
+Bouygues;EN.PA;1.0;730.0
+Bureau Veritas;BVI.PA;1.0;730.0
+Capgemini;CAP.PA;1.0;730.0
+Carrefour;CA.PA;1.0;730.0
+Crédit Agricole;ACA.PA;1.0;730.0
+Danone;BN.PA;1.8;730.0
+Dassault System;DSY.PA;2.0;730.0
+Edenred;EDEN.PA;1.0;730.0
+Engie;ENGI.PA;1.0;730.0
+EssilorLuxottica;EL.PA;1.0;730.0
+Eurofins Scientific;ERF.PA;1.0;730.0
+Exosens;EXENS.PA;1.0;730.0
+Hermès;RMS.PA;1.0;730.0
+Kering;KER.PA;1.0;730.0
+L'Oréal;OR.PA;1.0;730.0
+Legrand;LR.PA;1.0;730.0
+LVMH;MC.PA;1.0;730.0
+Michelin;ML.PA;1.0;730.0
+Orange;ORA.PA;1.0;730.0
+Pernod Ricard;RI.PA;1.0;730.0
+Publicis;PUB.PA;1.0;730.0
+Renault;RNO.PA;1.0;730.0
+Safran;SAF.PA;1.0;730.0
+Saint-Gobain;SGO.PA;1.0;730.0
+Sanofi;SAN.PA;1.0;730.0
+Schneider Electric;SU.PA;1.0;730.0
+Société Générale;GLE.PA;1.0;730.0
+Stellantis;STLAP.PA;1.0;730.0
+ST MicroElectronic;STMPA.PA;1.8;730.0
+Teleperformance;TEP.PA;1.2;730.0
+Thalès;HO.PA;1.2;730.0
+Total Energie;TTE.PA;1.0;730.0
+Unibail-Rodamco-Westfield;URW.PA;1.2;730.0
+Veolia;VIE.PA;1.2;730.0
+Vinci;DG.PA;1.2;730.0
+3M;MMM;1.2;730.0
+A. O. Smith;AOS;1.2;730.0
+Abbott Laboratories;ABT;1.2;730.0
+AbbVie;ABBV;1.2;730.0
+Accenture;ACN;1.2;730.0
+Adobe Inc.;ADBE;1.2;730.0
+Advanced Micro Devices;AMD;1.2;730.0
+AES Corporation;AES;1.2;730.0
+Aflac;AFL;1.2;730.0
+Agilent Technologies;A;1.2;730.0
+Air Products;APD;1.2;730.0
+Airbnb;ABNB;1.2;730.0
+Akamai Technologies;AKAM;1.2;730.0
+Albemarle Corporation;ALB;1.2;730.0
+Alexandria Real Estate Equities;ARE;1.2;730.0
+Align Technology;ALGN;1.2;730.0
+Allegion;ALLE;1.2;730.0
+Alliant Energy;LNT;1.2;730.0
+Allstate;ALL;1.2;730.0
+Alphabet;GOOGL;1.4;730.0
+Alphabet Inc. (Class C);GOOG;1.2;730.0
+Altria;MO;1.2;730.0
+Amazon;AMZN;1.2;730.0
+Amcor;AMCR;1.2;730.0
+Ameren;AEE;1.2;730.0
+American Electric Power;AEP;1.2;730.0
+American Express;AXP;1.2;730.0
+American International Group;AIG;1.2;730.0
+American Tower;AMT;1.2;730.0
+American Water Works;AWK;1.2;730.0
+Ameriprise Financial;AMP;1.2;730.0
+Ametek;AME;1.2;730.0
+Amgen;AMGN;1.2;730.0
+Amphenol;APH;1.2;730.0
+Analog Devices;ADI;1.2;730.0
+Aon plc;AON;1.2;730.0
+APA Corporation;APA;1.2;730.0
+Apollo Global Management;APO;1.2;730.0
+Apple Inc.;AAPL;1.2;730.0
+Applied Materials;AMAT;1.2;730.0
+AppLovin;APP;1.2;730.0
+Aptiv;APTV;1.2;730.0
+Arch Capital Group;ACGL;1.2;730.0
+Archer Daniels Midland;ADM;1.2;730.0
+Ares Management;ARES;1.2;730.0
+Arista Networks;ANET;1.2;730.0
+Arthur J. Gallagher & Co.;AJG;1.2;730.0
+Assurant;AIZ;1.2;730.0
+AT&T;T;1.2;730.0
+Atmos Energy;ATO;1.2;730.0
+Autodesk;ADSK;1.2;730.0
+Automatic Data Processing;ADP;1.2;730.0
+AutoZone;AZO;1.2;730.0
+AvalonBay Communities;AVB;1.2;730.0
+Avery Dennison;AVY;1.2;730.0
+Axon Enterprise;AXON;1.2;730.0
+Baker Hughes;BKR;1.2;730.0
+Ball Corporation;BALL;1.2;730.0
+Bank of America;BAC;1.2;730.0
+Baxter International;BAX;1.2;730.0
+Becton Dickinson;BDX;1.2;730.0
+Berkshire Hathaway;BRK.B;1.2;730.0
+Best Buy;BBY;1.2;730.0
+Bio-Techne;TECH;1.2;730.0
+Biogen;BIIB;1.2;730.0
+BlackRock;BLK;1.2;730.0
+Blackstone Inc.;BX;1.2;730.0
+"Block; Inc.";XYZ;1.2;730.0
+BNY Mellon;BK;1.2;730.0
+Boeing;BA;1.2;730.0
+Booking Holdings;BKNG;1.2;730.0
+Boston Scientific;BSX;1.2;730.0
+Bristol Myers Squibb;BMY;1.2;730.0
+Broadcom;AVGO;1.2;730.0
+Broadridge Financial Solutions;BR;1.2;730.0
+Brown & Brown;BRO;1.2;730.0
+Brown–Forman;BF.B;1.2;730.0
+Builders FirstSource;BLDR;1.2;730.0
+Bunge Global;BG;1.2;730.0
+"BXP; Inc.";BXP;1.2;730.0
+C.H. Robinson;CHRW;1.2;730.0
+Cadence Design Systems;CDNS;1.2;730.0
+Camden Property Trust;CPT;1.2;730.0
+Campbell's Company (The);CPB;1.2;730.0
+Capital One;COF;1.2;730.0
+Cardinal Health;CAH;1.2;730.0
+Carnival;CCL;1.2;730.0
+Carrier Global;CARR;1.2;730.0
+Carvana;CVNA;1.2;730.0
+Caterpillar Inc.;CAT;1.2;730.0
+Cboe Global Markets;CBOE;1.2;730.0
+CBRE Group;CBRE;1.2;730.0
+CDW Corporation;CDW;1.2;730.0
+Cencora;COR;1.2;730.0
+Centene Corporation;CNC;1.2;730.0
+CenterPoint Energy;CNP;1.2;730.0
+CF Industries;CF;1.2;730.0
+Charles River Laboratories;CRL;1.2;730.0
+Charles Schwab Corporation;SCHW;1.2;730.0
+Charter Communications;CHTR;1.2;730.0
+Chevron Corporation;CVX;1.2;730.0
+Chipotle Mexican Grill;CMG;1.2;730.0
+Chubb Limited;CB;1.2;730.0
+Church & Dwight;CHD;1.2;730.0
+Ciena;CIEN;1.2;730.0
+Cigna;CI;1.2;730.0
+Cincinnati Financial;CINF;1.2;730.0
+Cintas;CTAS;1.2;730.0
+Cisco;CSCO;1.2;730.0
+Citigroup;C;1.2;730.0
+Citizens Financial Group;CFG;1.2;730.0
+Clorox;CLX;1.2;730.0
+CME Group;CME;1.2;730.0
+CMS Energy;CMS;1.2;730.0
+Coca-Cola Company (The);KO;1.2;730.0
+Cognizant;CTSH;1.2;730.0
+Coinbase;COIN;1.2;730.0
+Colgate-Palmolive;CL;1.2;730.0
+Comcast;CMCSA;1.2;730.0
+Comfort Systems USA;FIX;1.2;730.0
+Conagra Brands;CAG;1.2;730.0
+ConocoPhillips;COP;1.2;730.0
+Consolidated Edison;ED;1.2;730.0
+Constellation Brands;STZ;1.2;730.0
+Constellation Energy;CEG;1.2;730.0
+Cooper Companies (The);COO;1.2;730.0
+Copart;CPRT;1.2;730.0
+Corning Inc.;GLW;1.2;730.0
+Corpay;CPAY;1.2;730.0
+Corteva;CTVA;1.2;730.0
+CoStar Group;CSGP;1.2;730.0
+Costco;COST;1.2;730.0
+Coterra;CTRA;1.2;730.0
+CRH plc;CRH;1.2;730.0
+CrowdStrike;CRWD;1.2;730.0
+Crown Castle;CCI;1.2;730.0
+CSX Corporation;CSX;1.2;730.0
+Cummins;CMI;1.2;730.0
+CVS Health;CVS;1.2;730.0
+Danaher Corporation;DHR;1.2;730.0
+Darden Restaurants;DRI;1.2;730.0
+Datadog;DDOG;1.2;730.0
+DaVita;DVA;1.2;730.0
+Deckers Brands;DECK;1.2;730.0
+Deere & Company;DE;1.2;730.0
+Dell Technologies;DELL;1.2;730.0
+Delta Air Lines;DAL;1.2;730.0
+Devon Energy;DVN;1.2;730.0
+Dexcom;DXCM;1.2;730.0
+Diamondback Energy;FANG;1.2;730.0
+Digital Realty;DLR;1.2;730.0
+Dollar General;DG;1.2;730.0
+Dollar Tree;DLTR;1.2;730.0
+Dominion Energy;D;1.2;730.0
+Domino's;DPZ;1.2;730.0
+DoorDash;DASH;1.2;730.0
+Dover Corporation;DOV;1.2;730.0
+Dow Inc.;DOW;1.2;730.0
+D. R. Horton;DHI;1.2;730.0
+DTE Energy;DTE;1.2;730.0
+Duke Energy;DUK;1.2;730.0
+DuPont;DD;1.2;730.0
+Eaton Corporation;ETN;1.2;730.0
+eBay Inc.;EBAY;1.2;730.0
+Ecolab;ECL;1.2;730.0
+Edison International;EIX;1.2;730.0
+Edwards Lifesciences;EW;1.2;730.0
+Electronic Arts;EA;1.2;730.0
+Elevance Health;ELV;1.2;730.0
+Emcor;EME;1.2;730.0
+Emerson Electric;EMR;1.2;730.0
+Entergy;ETR;1.2;730.0
+EOG Resources;EOG;1.2;730.0
+EPAM Systems;EPAM;1.2;730.0
+EQT Corporation;EQT;1.2;730.0
+Equifax;EFX;1.2;730.0
+Equinix;EQIX;1.2;730.0
+Equity Residential;EQR;1.2;730.0
+Erie Indemnity;ERIE;1.2;730.0
+Essex Property Trust;ESS;1.2;730.0
+Estée Lauder Companies (The);EL;1.2;730.0
+Everest Group;EG;1.2;730.0
+Evergy;EVRG;1.2;730.0
+Eversource Energy;ES;1.2;730.0
+Exelon;EXC;1.2;730.0
+Expand Energy;EXE;1.2;730.0
+Expedia Group;EXPE;1.2;730.0
+Expeditors International;EXPD;1.2;730.0
+Extra Space Storage;EXR;1.2;730.0
+ExxonMobil;XOM;1.2;730.0
+"F5; Inc.";FFIV;1.2;730.0
+FactSet;FDS;1.2;730.0
+Fair Isaac;FICO;1.2;730.0
+Fastenal;FAST;1.2;730.0
+Federal Realty Investment Trust;FRT;1.2;730.0
+FedEx;FDX;1.2;730.0
+Fidelity National Information Services;FIS;1.2;730.0
+Fifth Third Bancorp;FITB;1.2;730.0
+First Solar;FSLR;1.2;730.0
+FirstEnergy;FE;1.2;730.0
+Fiserv;FISV;1.2;730.0
+Ford Motor Company;F;1.2;730.0
+Fortinet;FTNT;1.2;730.0
+Fortive;FTV;1.2;730.0
+Fox Corporation (Class A);FOXA;1.2;730.0
+Fox Corporation (Class B);FOX;1.2;730.0
+Franklin Resources;BEN;1.2;730.0
+Freeport-McMoRan;FCX;1.2;730.0
+Galaxy Digital;GLXY;1.2;730.0
+Garmin;GRMN;1.2;730.0
+Gartner;IT;1.2;730.0
+GE Aerospace;GE;1.2;730.0
+GE HealthCare;GEHC;1.2;730.0
+GE Vernova;GEV;1.2;730.0
+Gen Digital;GEN;1.2;730.0
+Generac;GNRC;1.2;730.0
+General Dynamics;GD;1.2;730.0
+General Mills;GIS;1.2;730.0
+General Motors;GM;1.2;730.0
+Genuine Parts Company;GPC;1.2;730.0
+Gilead Sciences;GILD;1.2;730.0
+Global Payments;GPN;1.2;730.0
+Globe Life;GL;1.2;730.0
+GoDaddy;GDDY;1.2;730.0
+Goldman Sachs;GS;1.2;730.0
+Halliburton;HAL;1.2;730.0
+Hartford (The);HIG;1.2;730.0
+Hasbro;HAS;1.2;730.0
+HCA Healthcare;HCA;1.2;730.0
+Healthpeak Properties;DOC;1.2;730.0
+Henry Schein;HSIC;1.2;730.0
+Hershey Company (The);HSY;1.2;730.0
+Hewlett Packard Enterprise;HPE;1.2;730.0
+Hilton Worldwide;HLT;1.2;730.0
+Hologic;HOLX;1.2;730.0
+Home Depot (The);HD;1.2;730.0
+Honeywell;HON;1.2;730.0
+Hormel Foods;HRL;1.2;730.0
+Host Hotels & Resorts;HST;1.2;730.0
+Howmet Aerospace;HWM;1.2;730.0
+HP Inc.;HPQ;1.2;730.0
+Hubbell Incorporated;HUBB;1.2;730.0
+Humana;HUM;1.2;730.0
+Huntington Bancshares;HBAN;1.2;730.0
+Huntington Ingalls Industries;HII;1.2;730.0
+IBM;IBM;1.2;730.0
+IDEX Corporation;IEX;1.2;730.0
+Idexx Laboratories;IDXX;1.2;730.0
+Illinois Tool Works;ITW;1.2;730.0
+Incyte;INCY;1.2;730.0
+Ingersoll Rand;IR;1.2;730.0
+Insulet Corporation;PODD;1.2;730.0
+Intel;INTC;1.2;730.0
+Interactive Brokers;IBKR;1.2;730.0
+Intercontinental Exchange;ICE;1.2;730.0
+International Flavors & Fragrances;IFF;1.2;730.0
+International Paper;IP;1.2;730.0
+Intuit;INTU;1.2;730.0
+Intuitive Surgical;ISRG;1.2;730.0
+Invesco;IVZ;1.2;730.0
+Invitation Homes;INVH;1.2;730.0
+IQVIA;IQV;1.2;730.0
+Iron Mountain;IRM;1.2;730.0
+J.B. Hunt;JBHT;1.2;730.0
+Jabil;JBL;1.2;730.0
+Jack Henry & Associates;JKHY;1.2;730.0
+Jacobs Solutions;J;1.2;730.0
+Johnson & Johnson;JNJ;1.2;730.0
+Johnson Controls;JCI;1.2;730.0
+JPMorgan Chase;JPM;1.2;730.0
+Kenvue;KVUE;1.2;730.0
+Keurig Dr Pepper;KDP;1.2;730.0
+KeyCorp;KEY;1.2;730.0
+Keysight Technologies;KEYS;1.2;730.0
+Kimberly-Clark;KMB;1.2;730.0
+Kimco Realty;KIM;1.2;730.0
+Kinder Morgan;KMI;1.2;730.0
+KKR & Co.;KKR;1.2;730.0
+KLA Corporation;KLAC;1.2;730.0
+Kraft Heinz;KHC;1.2;730.0
+Kroger;KR;1.2;730.0
+L3Harris;LHX;1.2;730.0
+Labcorp;LH;1.2;730.0
+Lam Research;LRCX;1.2;730.0
+Lamb Weston;LW;1.2;730.0
+Las Vegas Sands;LVS;1.2;730.0
+Leidos;LDOS;1.2;730.0
+Lennar;LEN;1.2;730.0
+Lennox International;LII;1.2;730.0
+Lilly (Eli);LLY;1.2;730.0
+Linde plc;LIN;1.2;730.0
+Live Nation Entertainment;LYV;1.2;730.0
+Lockheed Martin;LMT;1.2;730.0
+Loews Corporation;L;1.2;730.0
+Lowe's;LOW;1.2;730.0
+Lululemon Athletica;LULU;1.2;730.0
+LyondellBasell;LYB;1.2;730.0
+M&T Bank;MTB;1.2;730.0
+Marathon Petroleum;MPC;1.2;730.0
+Marriott International;MAR;1.2;730.0
+Marsh McLennan;MRSH;1.2;730.0
+Martin Marietta Materials;MLM;1.2;730.0
+Masco;MAS;1.2;730.0
+Mastercard;MA;1.2;730.0
+Match Group;MTCH;1.2;730.0
+McCormick & Company;MKC;1.2;730.0
+McDonald's;MCD;1.2;730.0
+McKesson Corporation;MCK;1.2;730.0
+Medtronic;MDT;1.2;730.0
+Merck & Co.;MRK;1.2;730.0
+Meta Platforms;META;1.2;730.0
+MetLife;MET;1.2;730.0
+Mettler Toledo;MTD;1.2;730.0
+MGM Resorts;MGM;1.2;730.0
+Microchip Technology;MCHP;1.2;730.0
+Micron Technology;MU;1.2;730.0
+Microsoft;MSFT;1.2;730.0
+Mid-America Apartment Communities;MAA;1.2;730.0
+Moderna;MRNA;1.2;730.0
+Molina Healthcare;MOH;1.2;730.0
+Molson Coors Beverage Company;TAP;1.2;730.0
+Mondelez International;MDLZ;1.2;730.0
+Monolithic Power Systems;MPWR;1.2;730.0
+Monster Beverage;MNST;1.2;730.0
+Moody's Corporation;MCO;1.2;730.0
+Morgan Stanley;MS;1.2;730.0
+Mosaic Company (The);MOS;1.2;730.0
+Motorola Solutions;MSI;1.2;730.0
+MSCI Inc.;MSCI;1.2;730.0
+"Nasdaq; Inc.";NDAQ;1.2;730.0
+NetApp;NTAP;1.2;730.0
+Netflix;NFLX;1.2;730.0
+Newmont;NEM;1.2;730.0
+News Corp (Class A);NWSA;1.2;730.0
+News Corp (Class B);NWS;1.2;730.0
+NextEra Energy;NEE;1.2;730.0
+"Nike; Inc.";NKE;1.2;730.0
+NiSource;NI;1.2;730.0
+Nordson Corporation;NDSN;1.2;730.0
+Norfolk Southern;NSC;1.2;730.0
+Northern Trust;NTRS;1.2;730.0
+Northrop Grumman;NOC;1.2;730.0
+Norwegian Cruise Line Holdings;NCLH;1.2;730.0
+NRG Energy;NRG;1.2;730.0
+Nucor;NUE;1.2;730.0
+Nvidia;NVDA;1.2;730.0
+"NVR; Inc.";NVR;1.2;730.0
+NXP Semiconductors;NXPI;1.2;730.0
+O’Reilly Automotive;ORLY;1.2;730.0
+Occidental Petroleum;OXY;1.2;730.0
+Old Dominion;ODFL;1.2;730.0
+Omnicom Group;OMC;1.2;730.0
+ON Semiconductor;ON;1.2;730.0
+Oneok;OKE;1.2;730.0
+Oracle Corporation;ORCL;1.2;730.0
+Otis Worldwide;OTIS;1.2;730.0
+Paccar;PCAR;1.2;730.0
+Packaging Corporation of America;PKG;1.2;730.0
+Palantir Technologies;PLTR;1.2;730.0
+Palo Alto Networks;PANW;1.2;730.0
+Paramount Skydance Corporation;PSKY;1.2;730.0
+Parker Hannifin;PH;1.2;730.0
+Paychex;PAYX;1.2;730.0
+Paycom;PAYC;1.2;730.0
+PayPal;PYPL;1.2;730.0
+Pentair;PNR;1.2;730.0
+PepsiCo;PEP;1.2;730.0
+Pfizer;PFE;1.2;730.0
+PG&E Corporation;PCG;1.2;730.0
+Philip Morris International;PM;1.2;730.0
+Phillips 66;PSX;1.2;730.0
+Pinnacle West Capital;PNW;1.2;730.0
+PNC Financial Services;PNC;1.2;730.0
+Pool Corporation;POOL;1.2;730.0
+PPG Industries;PPG;1.2;730.0
+PPL Corporation;PPL;1.2;730.0
+Principal Financial Group;PFG;1.2;730.0
+Procore Tech;PCOR;1.2;730.0
+Procter & Gamble;PG;1.2;730.0
+Progressive Corporation;PGR;1.2;730.0
+Prologis;PLD;1.2;730.0
+Prudential Financial;PRU;1.2;730.0
+Public Service Enterprise Group;PEG;1.2;730.0
+PTC Inc.;PTC;1.2;730.0
+Public Storage;PSA;1.2;730.0
+PulteGroup;PHM;1.2;730.0
+Quanta Services;PWR;1.2;730.0
+Qualcomm;QCOM;1.2;730.0
+Quest Diagnostics;DGX;1.2;730.0
+Qnity Electronics;Q;1.2;730.0
+Ralph Lauren Corporation;RL;1.2;730.0
+Raymond James Financial;RJF;1.2;730.0
+RTX Corporation;RTX;1.2;730.0
+Realty Income;O;1.2;730.0
+Regency Centers;REG;1.2;730.0
+Regeneron Pharmaceuticals;REGN;1.2;730.0
+Regions Financial Corporation;RF;1.2;730.0
+Republic Services;RSG;1.2;730.0
+ResMed;RMD;1.2;730.0
+Revvity;RVTY;1.2;730.0
+Robinhood Markets;HOOD;1.2;730.0
+Rockwell Automation;ROK;1.2;730.0
+"Rollins; Inc.";ROL;1.2;730.0
+Roper Technologies;ROP;1.2;730.0
+Ross Stores;ROST;1.2;730.0
+Royal Caribbean Group;RCL;1.2;730.0
+S&P Global;SPGI;1.2;730.0
+Salesforce;CRM;1.2;730.0
+Sandisk;SNDK;1.2;730.0
+SBA Communications;SBAC;1.2;730.0
+Schlumberger;SLB;1.2;730.0
+Seagate Technology;STX;1.2;730.0
+Sempra;SRE;1.2;730.0
+Semtech;SMTC;1.1;730.0
+ServiceNow;NOW;1.2;730.0
+Sherwin-Williams;SHW;1.2;730.0
+Simon Property Group;SPG;1.2;730.0
+Skyworks Solutions;SWKS;1.2;730.0
+J.M. Smucker Company (The);SJM;1.2;730.0
+Smurfit Westrock;SW;1.2;730.0
+Snap-on;SNA;1.2;730.0
+Solventum;SOLV;1.2;730.0
+Southern Company;SO;1.2;730.0
+Southwest Airlines;LUV;1.2;730.0
+Stanley Black & Decker;SWK;1.2;730.0
+Starbucks;SBUX;1.2;730.0
+State Street Corporation;STT;1.2;730.0
+Steel Dynamics;STLD;1.2;730.0
+Steris;STE;1.2;730.0
+Stryker Corporation;SYK;1.2;730.0
+Supermicro;SMCI;1.2;730.0
+Synchrony Financial;SYF;1.2;730.0
+Synopsys;SNPS;1.2;730.0
+Sysco;SYY;1.2;730.0
+T-Mobile US;TMUS;1.2;730.0
+T. Rowe Price;TROW;1.2;730.0
+Take-Two Interactive;TTWO;1.2;730.0
+"Tapestry; Inc.";TPR;1.2;730.0
+Targa Resources;TRGP;1.2;730.0
+Target Corporation;TGT;1.2;730.0
+TE Connectivity;TEL;1.2;730.0
+Teledyne Technologies;TDY;1.2;730.0
+Teradyne;TER;1.2;730.0
+"Tesla; Inc.";TSLA;1.2;730.0
+Texas Instruments;TXN;1.2;730.0
+Texas Pacific Land Corporation;TPL;1.2;730.0
+Textron;TXT;1.2;730.0
+Thermo Fisher Scientific;TMO;1.2;730.0
+TJX Companies;TJX;1.2;730.0
+TKO Group Holdings;TKO;1.2;730.0
+Trade Desk (The);TTD;1.2;730.0
+Tractor Supply;TSCO;1.2;730.0
+Trane Technologies;TT;1.2;730.0
+TransDigm Group;TDG;1.2;730.0
+Travelers Companies (The);TRV;1.2;730.0
+Trimble Inc.;TRMB;1.2;730.0
+Truist Financial;TFC;1.2;730.0
+Tyler Technologies;TYL;1.2;730.0
+Tyson Foods;TSN;1.2;730.0
+U.S. Bancorp;USB;1.2;730.0
+Uber;UBER;1.2;730.0
+"UDR; Inc.";UDR;1.2;730.0
+Ulta Beauty;ULTA;1.2;730.0
+Union Pacific Corporation;UNP;1.2;730.0
+United Airlines Holdings;UAL;1.2;730.0
+United Parcel Service;UPS;1.2;730.0
+United Rentals;URI;1.2;730.0
+UnitedHealth Group;UNH;1.2;730.0
+Universal Health Services;UHS;1.2;730.0
+Valero Energy;VLO;1.2;730.0
+Ventas;VTR;1.2;730.0
+Veralto;VLTO;1.2;730.0
+Verisign;VRSN;1.2;730.0
+Verisk Analytics;VRSK;1.2;730.0
+Verizon;VZ;1.2;730.0
+Vertex Pharmaceuticals;VRTX;1.2;730.0
+Viatris;VTRS;1.2;730.0
+Vici Properties;VICI;1.2;730.0
+Visa Inc.;V;1.2;730.0
+Vistra Corp.;VST;1.2;730.0
+Vulcan Materials Company;VMC;1.2;730.0
+W. R. Berkley Corporation;WRB;1.2;730.0
+W. W. Grainger;GWW;1.2;730.0
+Wabtec;WAB;1.2;730.0
+Walmart;WMT;1.2;730.0
+Walt Disney Company (The);DIS;1.2;730.0
+Warner Bros. Discovery;WBD;1.2;730.0
+Waste Management;WM;1.2;730.0
+Waters Corporation;WAT;1.2;730.0
+WEC Energy Group;WEC;1.2;730.0
+Wells Fargo;WFC;1.2;730.0
+Welltower;WELL;1.2;730.0
+West Pharmaceutical Services;WST;1.2;730.0
+Western Digital;WDC;1.2;730.0
+Weyerhaeuser;WY;1.2;730.0
+"Williams-Sonoma; Inc.";WSM;1.2;730.0
+Williams Companies;WMB;1.2;730.0
+Willis Towers Watson;WTW;1.2;730.0
+"Workday; Inc.";WDAY;1.2;730.0
+Wynn Resorts;WYNN;1.2;730.0
+Xcel Energy;XEL;1.2;730.0
+Xylem Inc.;XYL;1.2;730.0
+Yum! Brands;YUM;1.2;730.0
+Zebra Technologies;ZBRA;1.2;730.0
+Zimmer Biomet;ZBH;1.2;730.0
+Zoetis;ZTS;1.2;730.0
