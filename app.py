@@ -153,17 +153,6 @@ if not df_raw.empty:
         if not valeur_estimee or valeur_estimee <= 0:
             # BookValue n'est pas tjs dans fast_info, on met une valeur par défaut cohérente
             valeur_estimee = last_price * 1.10  # Par défaut +10% pour ne pas bloquer l'affichage
-        """
-        # 2. RATIO DE DETTE (D/E)
-        # Malheureusement, le ratio D/E n'est PAS dans fast_info.
-        # Pour Internet, nous allons essayer un appel 'lazy' (uniquement si info est dispo)
-        try:
-            # On demande SEULEMENT 2 clés précises pour éviter le blocage complet
-            financials = ticker_obj.get_info()  # Parfois plus stable que .info
-            debt_equity = financials.get('debtToEquity')
-        except:
-            debt_equity = None
-        """
         # --- LOGIQUE COULEURS ---
         if valeur_estimee > 0:
             diff = (valeur_estimee / last_price) - 1
