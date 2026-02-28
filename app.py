@@ -161,8 +161,8 @@ if not df_raw.empty:
         else:
             label_debt, color_debt = "N/A", "#FFFFFF"
     except:
-        valeur_estimee, label_val, color_val = 0, "Erreur", "#FFFFFF"
-        debt_equity, label_debt, color_debt = None, "Erreur", "#FFFFFF"
+        valeur_estimee, label_val, color_val = 0, "Accès Yf restreint", "#FFFFFF"
+        debt_equity, label_debt, color_debt = None, "Accès Yf restreint", "#FFFFFF"
 
     # --- AFFICHAGE DU STATUT ---
     st.markdown(f"<h1 style='text-align: center; color: {get_color(status)};'>{status}</h1>",
