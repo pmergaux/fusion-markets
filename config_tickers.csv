@@ -1,599 +1,599 @@
-Nom;Ticker;Coef;Days
-BitCoin;BTC-EUR;1.2;730.0
-Ethereum;ETH-EUR;1.0;730.0
-Solana;SOL-EUR;1.0;730.0
-Accor;AC.PA;0.85;730.0
-Air Liquide;AI.PA;1.0;380.0
-Airbus;AIR.PA;1.0;730.0
-ArcelorMittal;MT.AS;1.0;730.0
-AXA;CS.PA;1.0;730.0
-BNP Paribas;BNP.PA;1.0;730.0
-Bouygues;EN.PA;1.0;730.0
-Bureau Veritas;BVI.PA;1.0;730.0
-Capgemini;CAP.PA;1.0;730.0
-Carrefour;CA.PA;1.0;730.0
-Crédit Agricole;ACA.PA;1.0;730.0
-Danone;BN.PA;1.8;730.0
-Dassault System;DSY.PA;2.0;730.0
-Edenred;EDEN.PA;1.0;730.0
-Engie;ENGI.PA;1.0;730.0
-EssilorLuxottica;EL.PA;1.0;730.0
-Eurofins Scientific;ERF.PA;1.0;730.0
-Exosens;EXENS.PA;1.0;730.0
-Hermès;RMS.PA;1.0;730.0
-Kering;KER.PA;1.0;730.0
-L'Oréal;OR.PA;1.0;730.0
-Legrand;LR.PA;1.0;730.0
-LVMH;MC.PA;1.0;730.0
-Michelin;ML.PA;1.0;730.0
-Orange;ORA.PA;1.0;730.0
-Pernod Ricard;RI.PA;1.0;730.0
-Publicis;PUB.PA;1.0;730.0
-Renault;RNO.PA;1.0;730.0
-Safran;SAF.PA;1.0;730.0
-Saint-Gobain;SGO.PA;1.0;730.0
-Sanofi;SAN.PA;1.0;730.0
-Schneider Electric;SU.PA;1.0;730.0
-Société Générale;GLE.PA;1.0;730.0
-Stellantis;STLAP.PA;1.0;730.0
-ST MicroElectronic;STMPA.PA;1.8;730.0
-Teleperformance;TEP.PA;1.2;730.0
-Thalès;HO.PA;1.2;730.0
-Total Energie;TTE.PA;1.0;730.0
-Unibail-Rodamco-Westfield;URW.PA;1.2;730.0
-Veolia;VIE.PA;1.2;730.0
-Vinci;DG.PA;1.2;730.0
-3M;MMM;1.2;730.0
-A. O. Smith;AOS;1.2;730.0
-Abbott Laboratories;ABT;1.2;730.0
-AbbVie;ABBV;1.2;730.0
-Accenture;ACN;1.2;730.0
-Adobe Inc.;ADBE;1.2;730.0
-Advanced Micro Devices;AMD;1.2;730.0
-AES Corporation;AES;1.2;730.0
-Aflac;AFL;1.2;730.0
-Agilent Technologies;A;1.2;730.0
-Air Products;APD;1.2;730.0
-Airbnb;ABNB;1.2;730.0
-Akamai Technologies;AKAM;1.2;730.0
-Albemarle Corporation;ALB;1.2;730.0
-Alexandria Real Estate Equities;ARE;1.2;730.0
-Align Technology;ALGN;1.2;730.0
-Allegion;ALLE;1.2;730.0
-Alliant Energy;LNT;1.2;730.0
-Allstate;ALL;1.2;730.0
-Alphabet;GOOGL;1.4;730.0
-Alphabet Inc. (Class C);GOOG;1.2;730.0
-Altria;MO;1.2;730.0
-Amazon;AMZN;1.2;730.0
-Amcor;AMCR;1.2;730.0
-Ameren;AEE;1.2;730.0
-American Electric Power;AEP;1.2;730.0
-American Express;AXP;1.2;730.0
-American International Group;AIG;1.2;730.0
-American Tower;AMT;1.2;730.0
-American Water Works;AWK;1.2;730.0
-Ameriprise Financial;AMP;1.2;730.0
-Ametek;AME;1.2;730.0
-Amgen;AMGN;1.2;730.0
-Amphenol;APH;1.2;730.0
-Analog Devices;ADI;1.2;730.0
-Aon plc;AON;1.2;730.0
-APA Corporation;APA;1.2;730.0
-Apollo Global Management;APO;1.2;730.0
-Apple Inc.;AAPL;1.2;730.0
-Applied Materials;AMAT;1.2;730.0
-AppLovin;APP;1.2;730.0
-Aptiv;APTV;1.2;730.0
-Arch Capital Group;ACGL;1.2;730.0
-Archer Daniels Midland;ADM;1.2;730.0
-Ares Management;ARES;1.2;730.0
-Arista Networks;ANET;1.2;730.0
-Arthur J. Gallagher & Co.;AJG;1.2;730.0
-Assurant;AIZ;1.2;730.0
-AT&T;T;1.2;730.0
-Atmos Energy;ATO;1.2;730.0
-Autodesk;ADSK;1.2;730.0
-Automatic Data Processing;ADP;1.2;730.0
-AutoZone;AZO;1.2;730.0
-AvalonBay Communities;AVB;1.2;730.0
-Avery Dennison;AVY;1.2;730.0
-Axon Enterprise;AXON;1.2;730.0
-Baker Hughes;BKR;1.2;730.0
-Ball Corporation;BALL;1.2;730.0
-Bank of America;BAC;1.2;730.0
-Baxter International;BAX;1.2;730.0
-Becton Dickinson;BDX;1.2;730.0
-Berkshire Hathaway;BRK-B;1.2;730.0
-Best Buy;BBY;1.2;730.0
-Bio-Techne;TECH;1.2;730.0
-Biogen;BIIB;1.2;730.0
-BlackRock;BLK;1.2;730.0
-Blackstone Inc.;BX;1.2;730.0
-"Block; Inc.";XYZ;1.2;730.0
-BNY Mellon;BK;1.2;730.0
-Boeing;BA;1.2;730.0
-Booking Holdings;BKNG;1.2;730.0
-Boston Scientific;BSX;1.2;730.0
-Bristol Myers Squibb;BMY;1.2;730.0
-Broadcom;AVGO;1.2;730.0
-Broadridge Financial Solutions;BR;1.2;730.0
-Brown & Brown;BRO;1.2;730.0
-Brown–Forman;BF-B;1.2;730.0
-Builders FirstSource;BLDR;1.2;730.0
-Bunge Global;BG;1.2;730.0
-"BXP; Inc.";BXP;1.2;730.0
-C.H. Robinson;CHRW;1.2;730.0
-Cadence Design Systems;CDNS;1.2;730.0
-Camden Property Trust;CPT;1.2;730.0
-Campbell's Company (The);CPB;1.2;730.0
-Capital One;COF;1.2;730.0
-Cardinal Health;CAH;1.2;730.0
-Carnival;CCL;1.2;730.0
-Carrier Global;CARR;1.2;730.0
-Carvana;CVNA;1.2;730.0
-Caterpillar Inc.;CAT;1.2;730.0
-Cboe Global Markets;CBOE;1.2;730.0
-CBRE Group;CBRE;1.2;730.0
-CDW Corporation;CDW;1.2;730.0
-Cencora;COR;1.2;730.0
-Centene Corporation;CNC;1.2;730.0
-CenterPoint Energy;CNP;1.2;730.0
-CF Industries;CF;1.2;730.0
-Charles River Laboratories;CRL;1.2;730.0
-Charles Schwab Corporation;SCHW;1.2;730.0
-Charter Communications;CHTR;1.2;730.0
-Chevron Corporation;CVX;1.2;730.0
-Chipotle Mexican Grill;CMG;1.2;730.0
-Chubb Limited;CB;1.2;730.0
-Church & Dwight;CHD;1.2;730.0
-Ciena;CIEN;1.2;730.0
-Cigna;CI;1.2;730.0
-Cincinnati Financial;CINF;1.2;730.0
-Cintas;CTAS;1.2;730.0
-Cisco;CSCO;1.2;730.0
-Citigroup;C;1.2;730.0
-Citizens Financial Group;CFG;1.2;730.0
-Clorox;CLX;1.2;730.0
-CME Group;CME;1.2;730.0
-CMS Energy;CMS;1.2;730.0
-Coca-Cola Company (The);KO;1.2;730.0
-Cognizant;CTSH;1.2;730.0
-Coinbase;COIN;1.2;730.0
-Colgate-Palmolive;CL;1.2;730.0
-Comcast;CMCSA;1.2;730.0
-Comfort Systems USA;FIX;1.2;730.0
-Conagra Brands;CAG;1.2;730.0
-ConocoPhillips;COP;1.2;730.0
-Consolidated Edison;ED;1.2;730.0
-Constellation Brands;STZ;1.2;730.0
-Constellation Energy;CEG;1.2;730.0
-Cooper Companies (The);COO;1.2;730.0
-Copart;CPRT;1.2;730.0
-Corning Inc.;GLW;1.2;730.0
-Corpay;CPAY;1.2;730.0
-Corteva;CTVA;1.2;730.0
-CoStar Group;CSGP;1.2;730.0
-Costco;COST;1.2;730.0
-Coterra;CTRA;1.2;730.0
-CRH plc;CRH;1.2;730.0
-CrowdStrike;CRWD;1.2;730.0
-Crown Castle;CCI;1.2;730.0
-CSX Corporation;CSX;1.2;730.0
-Cummins;CMI;1.2;730.0
-CVS Health;CVS;1.2;730.0
-Danaher Corporation;DHR;1.2;730.0
-Darden Restaurants;DRI;1.2;730.0
-Datadog;DDOG;1.2;730.0
-DaVita;DVA;1.2;730.0
-Deckers Brands;DECK;1.2;730.0
-Deere & Company;DE;1.2;730.0
-Dell Technologies;DELL;1.2;730.0
-Delta Air Lines;DAL;1.2;730.0
-Devon Energy;DVN;1.2;730.0
-Dexcom;DXCM;1.2;730.0
-Diamondback Energy;FANG;1.2;730.0
-Digital Realty;DLR;1.2;730.0
-Dollar General;DG;1.2;730.0
-Dollar Tree;DLTR;1.2;730.0
-Dominion Energy;D;1.2;730.0
-Domino's;DPZ;1.2;730.0
-DoorDash;DASH;1.2;730.0
-Dover Corporation;DOV;1.2;730.0
-Dow Inc.;DOW;1.2;730.0
-D. R. Horton;DHI;1.2;730.0
-DTE Energy;DTE;1.2;730.0
-Duke Energy;DUK;1.2;730.0
-DuPont;DD;1.2;730.0
-Eaton Corporation;ETN;1.2;730.0
-eBay Inc.;EBAY;1.2;730.0
-Ecolab;ECL;1.2;730.0
-Edison International;EIX;1.2;730.0
-Edwards Lifesciences;EW;1.2;730.0
-Electronic Arts;EA;1.2;730.0
-Elevance Health;ELV;1.2;730.0
-Emcor;EME;1.2;730.0
-Emerson Electric;EMR;1.2;730.0
-Entergy;ETR;1.2;730.0
-EOG Resources;EOG;1.2;730.0
-EPAM Systems;EPAM;1.2;730.0
-EQT Corporation;EQT;1.2;730.0
-Equifax;EFX;1.2;730.0
-Equinix;EQIX;1.2;730.0
-Equity Residential;EQR;1.2;730.0
-Erie Indemnity;ERIE;1.2;730.0
-Essex Property Trust;ESS;1.2;730.0
-Estée Lauder Companies (The);EL;1.2;730.0
-Everest Group;EG;1.2;730.0
-Evergy;EVRG;1.2;730.0
-Eversource Energy;ES;1.2;730.0
-Exelon;EXC;1.2;730.0
-Expand Energy;EXE;1.2;730.0
-Expedia Group;EXPE;1.2;730.0
-Expeditors International;EXPD;1.2;730.0
-Extra Space Storage;EXR;1.2;730.0
-ExxonMobil;XOM;1.2;730.0
-"F5; Inc.";FFIV;1.2;730.0
-FactSet;FDS;1.2;730.0
-Fair Isaac;FICO;1.2;730.0
-Fastenal;FAST;1.2;730.0
-Federal Realty Investment Trust;FRT;1.2;730.0
-FedEx;FDX;1.2;730.0
-Fidelity National Information Services;FIS;1.2;730.0
-Fifth Third Bancorp;FITB;1.2;730.0
-First Solar;FSLR;1.2;730.0
-FirstEnergy;FE;1.2;730.0
-Fiserv;FISV;1.2;730.0
-Ford Motor Company;F;1.2;730.0
-Fortinet;FTNT;1.2;730.0
-Fortive;FTV;1.2;730.0
-Fox Corporation (Class A);FOXA;1.2;730.0
-Fox Corporation (Class B);FOX;1.2;730.0
-Franklin Resources;BEN;1.2;730.0
-Freeport-McMoRan;FCX;1.2;730.0
-Galaxy Digital;GLXY;1.2;730.0
-Garmin;GRMN;1.2;730.0
-Gartner;IT;1.2;730.0
-GE Aerospace;GE;1.2;730.0
-GE HealthCare;GEHC;1.2;730.0
-GE Vernova;GEV;1.2;730.0
-Gen Digital;GEN;1.2;730.0
-Generac;GNRC;1.2;730.0
-General Dynamics;GD;1.2;730.0
-General Mills;GIS;1.2;730.0
-General Motors;GM;1.2;730.0
-Genuine Parts Company;GPC;1.2;730.0
-Gilead Sciences;GILD;1.2;730.0
-Global Payments;GPN;1.2;730.0
-Globe Life;GL;1.2;730.0
-GoDaddy;GDDY;1.2;730.0
-Goldman Sachs;GS;1.2;730.0
-Halliburton;HAL;1.2;730.0
-Hartford (The);HIG;1.2;730.0
-Hasbro;HAS;1.2;730.0
-HCA Healthcare;HCA;1.2;730.0
-Healthpeak Properties;DOC;1.2;730.0
-Henry Schein;HSIC;1.2;730.0
-Hershey Company (The);HSY;1.2;730.0
-Hewlett Packard Enterprise;HPE;1.2;730.0
-Hilton Worldwide;HLT;1.2;730.0
-Hologic;HOLX;1.2;730.0
-Home Depot (The);HD;1.2;730.0
-Honeywell;HON;1.2;730.0
-Hormel Foods;HRL;1.2;730.0
-Host Hotels & Resorts;HST;1.2;730.0
-Howmet Aerospace;HWM;1.2;730.0
-HP Inc.;HPQ;1.2;730.0
-Hubbell Incorporated;HUBB;1.2;730.0
-Humana;HUM;1.2;730.0
-Huntington Bancshares;HBAN;1.2;730.0
-Huntington Ingalls Industries;HII;1.2;730.0
-IBM;IBM;1.2;730.0
-IDEX Corporation;IEX;1.2;730.0
-Idexx Laboratories;IDXX;1.2;730.0
-Illinois Tool Works;ITW;1.2;730.0
-Incyte;INCY;1.2;730.0
-Ingersoll Rand;IR;1.2;730.0
-Insulet Corporation;PODD;1.2;730.0
-Intel;INTC;1.2;730.0
-Interactive Brokers;IBKR;1.2;730.0
-Intercontinental Exchange;ICE;1.2;730.0
-International Flavors & Fragrances;IFF;1.2;730.0
-International Paper;IP;1.2;730.0
-Intuit;INTU;1.2;730.0
-Intuitive Surgical;ISRG;1.2;730.0
-Invesco;IVZ;1.2;730.0
-Invitation Homes;INVH;1.2;730.0
-IQVIA;IQV;1.2;730.0
-Iron Mountain;IRM;1.2;730.0
-J.B. Hunt;JBHT;1.2;730.0
-Jabil;JBL;1.2;730.0
-Jack Henry & Associates;JKHY;1.2;730.0
-Jacobs Solutions;J;1.2;730.0
-Johnson & Johnson;JNJ;1.2;730.0
-Johnson Controls;JCI;1.2;730.0
-JPMorgan Chase;JPM;1.2;730.0
-Kenvue;KVUE;1.2;730.0
-Keurig Dr Pepper;KDP;1.2;730.0
-KeyCorp;KEY;1.2;730.0
-Keysight Technologies;KEYS;1.2;730.0
-Kimberly-Clark;KMB;1.2;730.0
-Kimco Realty;KIM;1.2;730.0
-Kinder Morgan;KMI;1.2;730.0
-KKR & Co.;KKR;1.2;730.0
-KLA Corporation;KLAC;1.2;730.0
-Kraft Heinz;KHC;1.2;730.0
-Kroger;KR;1.2;730.0
-L3Harris;LHX;1.2;730.0
-Labcorp;LH;1.2;730.0
-Lam Research;LRCX;1.2;730.0
-Lamb Weston;LW;1.2;730.0
-Las Vegas Sands;LVS;1.2;730.0
-Leidos;LDOS;1.2;730.0
-Lennar;LEN;1.2;730.0
-Lennox International;LII;1.2;730.0
-Lilly (Eli);LLY;1.2;730.0
-Linde plc;LIN;1.2;730.0
-Live Nation Entertainment;LYV;1.2;730.0
-Lockheed Martin;LMT;1.2;730.0
-Loews Corporation;L;1.2;730.0
-Lowe's;LOW;1.2;730.0
-Lululemon Athletica;LULU;1.2;730.0
-LyondellBasell;LYB;1.2;730.0
-M&T Bank;MTB;1.2;730.0
-Marathon Petroleum;MPC;1.2;730.0
-Marriott International;MAR;1.2;730.0
-Marsh McLennan;MRSH;1.2;730.0
-Martin Marietta Materials;MLM;1.2;730.0
-Masco;MAS;1.2;730.0
-Mastercard;MA;1.2;730.0
-Match Group;MTCH;1.2;730.0
-McCormick & Company;MKC;1.2;730.0
-McDonald's;MCD;1.2;730.0
-McKesson Corporation;MCK;1.2;730.0
-Medtronic;MDT;1.2;730.0
-Merck & Co.;MRK;1.2;730.0
-Meta Platforms;META;1.2;730.0
-MetLife;MET;1.2;730.0
-Mettler Toledo;MTD;1.2;730.0
-MGM Resorts;MGM;1.2;730.0
-Microchip Technology;MCHP;1.2;730.0
-Micron Technology;MU;1.2;730.0
-Microsoft;MSFT;1.2;730.0
-Mid-America Apartment Communities;MAA;1.2;730.0
-Moderna;MRNA;1.2;730.0
-Molina Healthcare;MOH;1.2;730.0
-Molson Coors Beverage Company;TAP;1.2;730.0
-Mondelez International;MDLZ;1.2;730.0
-Monolithic Power Systems;MPWR;1.2;730.0
-Monster Beverage;MNST;1.2;730.0
-Moody's Corporation;MCO;1.2;730.0
-Morgan Stanley;MS;1.2;730.0
-Mosaic Company (The);MOS;1.2;730.0
-Motorola Solutions;MSI;1.2;730.0
-MSCI Inc.;MSCI;1.2;730.0
-"Nasdaq; Inc.";NDAQ;1.2;730.0
-NetApp;NTAP;1.2;730.0
-Netflix;NFLX;1.2;730.0
-Newmont;NEM;1.2;730.0
-News Corp (Class A);NWSA;1.2;730.0
-News Corp (Class B);NWS;1.2;730.0
-NextEra Energy;NEE;1.2;730.0
-"Nike; Inc.";NKE;1.2;730.0
-NiSource;NI;1.2;730.0
-Nordson Corporation;NDSN;1.2;730.0
-Norfolk Southern;NSC;1.2;730.0
-Northern Trust;NTRS;1.2;730.0
-Northrop Grumman;NOC;1.2;730.0
-Norwegian Cruise Line Holdings;NCLH;1.2;730.0
-NRG Energy;NRG;1.2;730.0
-Nucor;NUE;1.2;730.0
-Nvidia;NVDA;1.2;730.0
-"NVR; Inc.";NVR;1.2;730.0
-NXP Semiconductors;NXPI;1.2;730.0
-O’Reilly Automotive;ORLY;1.2;730.0
-Occidental Petroleum;OXY;1.2;730.0
-Old Dominion;ODFL;1.2;730.0
-Omnicom Group;OMC;1.2;730.0
-ON Semiconductor;ON;1.2;730.0
-Oneok;OKE;1.2;730.0
-Oracle Corporation;ORCL;1.2;730.0
-Otis Worldwide;OTIS;1.2;730.0
-Paccar;PCAR;1.2;730.0
-Packaging Corporation of America;PKG;1.2;730.0
-Palantir Technologies;PLTR;1.2;730.0
-Palo Alto Networks;PANW;1.2;730.0
-Paramount Skydance Corporation;PSKY;1.2;730.0
-Parker Hannifin;PH;1.2;730.0
-Paychex;PAYX;1.2;730.0
-Paycom;PAYC;1.2;730.0
-PayPal;PYPL;1.2;730.0
-Pentair;PNR;1.2;730.0
-PepsiCo;PEP;1.2;730.0
-Pfizer;PFE;1.2;730.0
-PG&E Corporation;PCG;1.2;730.0
-Philip Morris International;PM;1.2;730.0
-Phillips 66;PSX;1.2;730.0
-Pinnacle West Capital;PNW;1.2;730.0
-PNC Financial Services;PNC;1.2;730.0
-Pool Corporation;POOL;1.2;730.0
-PPG Industries;PPG;1.2;730.0
-PPL Corporation;PPL;1.2;730.0
-Principal Financial Group;PFG;1.2;730.0
-Procore Tech;PCOR;1.2;730.0
-Procter & Gamble;PG;1.2;730.0
-Progressive Corporation;PGR;1.2;730.0
-Prologis;PLD;1.2;730.0
-Prudential Financial;PRU;1.2;730.0
-Public Service Enterprise Group;PEG;1.2;730.0
-PTC Inc.;PTC;1.2;730.0
-Public Storage;PSA;1.2;730.0
-PulteGroup;PHM;1.2;730.0
-Quanta Services;PWR;1.2;730.0
-Qualcomm;QCOM;1.2;730.0
-Quest Diagnostics;DGX;1.2;730.0
-Qnity Electronics;Q;1.2;730.0
-Ralph Lauren Corporation;RL;1.2;730.0
-Raymond James Financial;RJF;1.2;730.0
-RTX Corporation;RTX;1.2;730.0
-Realty Income;O;1.2;730.0
-Regency Centers;REG;1.2;730.0
-Regeneron Pharmaceuticals;REGN;1.2;730.0
-Regions Financial Corporation;RF;1.2;730.0
-Republic Services;RSG;1.2;730.0
-ResMed;RMD;1.2;730.0
-Revvity;RVTY;1.2;730.0
-Robinhood Markets;HOOD;1.2;730.0
-Rockwell Automation;ROK;1.2;730.0
-"Rollins; Inc.";ROL;1.2;730.0
-Roper Technologies;ROP;1.2;730.0
-Ross Stores;ROST;1.2;730.0
-Royal Caribbean Group;RCL;1.2;730.0
-S&P Global;SPGI;1.2;730.0
-Salesforce;CRM;1.2;730.0
-Sandisk;SNDK;1.2;730.0
-SBA Communications;SBAC;1.2;730.0
-Schlumberger;SLB;1.2;730.0
-Seagate Technology;STX;1.2;730.0
-Sempra;SRE;1.2;730.0
-Semtech;SMTC;1.1;730.0
-ServiceNow;NOW;1.2;730.0
-Sherwin-Williams;SHW;1.2;730.0
-Simon Property Group;SPG;1.2;730.0
-Skyworks Solutions;SWKS;1.2;730.0
-J.M. Smucker Company (The);SJM;1.2;730.0
-Smurfit Westrock;SW;1.2;730.0
-Snap-on;SNA;1.2;730.0
-Solventum;SOLV;1.2;730.0
-Southern Company;SO;1.2;730.0
-Southwest Airlines;LUV;1.2;730.0
-Stanley Black & Decker;SWK;1.2;730.0
-Starbucks;SBUX;1.2;730.0
-State Street Corporation;STT;1.2;730.0
-Steel Dynamics;STLD;1.2;730.0
-Steris;STE;1.2;730.0
-Stryker Corporation;SYK;1.2;730.0
-Supermicro;SMCI;1.2;730.0
-Synchrony Financial;SYF;1.2;730.0
-Synopsys;SNPS;1.2;730.0
-Sysco;SYY;1.2;730.0
-T-Mobile US;TMUS;1.2;730.0
-T. Rowe Price;TROW;1.2;730.0
-Take-Two Interactive;TTWO;1.2;730.0
-"Tapestry; Inc.";TPR;1.2;730.0
-Targa Resources;TRGP;1.2;730.0
-Target Corporation;TGT;1.2;730.0
-TE Connectivity;TEL;1.2;730.0
-Teledyne Technologies;TDY;1.2;730.0
-Teradyne;TER;1.2;730.0
-"Tesla; Inc.";TSLA;1.2;730.0
-Texas Instruments;TXN;1.2;730.0
-Texas Pacific Land Corporation;TPL;1.2;730.0
-Textron;TXT;1.2;730.0
-Thermo Fisher Scientific;TMO;1.2;730.0
-TJX Companies;TJX;1.2;730.0
-TKO Group Holdings;TKO;1.2;730.0
-Trade Desk (The);TTD;1.2;730.0
-Tractor Supply;TSCO;1.2;730.0
-Trane Technologies;TT;1.2;730.0
-TransDigm Group;TDG;1.2;730.0
-Travelers Companies (The);TRV;1.2;730.0
-Trimble Inc.;TRMB;1.2;730.0
-Truist Financial;TFC;1.2;730.0
-Tyler Technologies;TYL;1.2;730.0
-Tyson Foods;TSN;1.2;730.0
-U.S. Bancorp;USB;1.2;730.0
-Uber;UBER;1.2;730.0
-"UDR; Inc.";UDR;1.2;730.0
-Ulta Beauty;ULTA;1.2;730.0
-Union Pacific Corporation;UNP;1.2;730.0
-United Airlines Holdings;UAL;1.2;730.0
-United Parcel Service;UPS;1.2;730.0
-United Rentals;URI;1.2;730.0
-UnitedHealth Group;UNH;1.2;730.0
-Universal Health Services;UHS;1.2;730.0
-Valero Energy;VLO;1.2;730.0
-Ventas;VTR;1.2;730.0
-Veralto;VLTO;1.2;730.0
-Verisign;VRSN;1.2;730.0
-Verisk Analytics;VRSK;1.2;730.0
-Verizon;VZ;1.2;730.0
-Vertex Pharmaceuticals;VRTX;1.2;730.0
-Viatris;VTRS;1.2;730.0
-Vici Properties;VICI;1.2;730.0
-Visa Inc.;V;1.2;730.0
-Vistra Corp.;VST;1.2;730.0
-Vulcan Materials Company;VMC;1.2;730.0
-W. R. Berkley Corporation;WRB;1.2;730.0
-W. W. Grainger;GWW;1.2;730.0
-Wabtec;WAB;1.2;730.0
-Walmart;WMT;1.2;730.0
-Walt Disney Company (The);DIS;1.2;730.0
-Warner Bros. Discovery;WBD;1.2;730.0
-Waste Management;WM;1.2;730.0
-Waters Corporation;WAT;1.2;730.0
-WEC Energy Group;WEC;1.2;730.0
-Wells Fargo;WFC;1.2;730.0
-Welltower;WELL;1.2;730.0
-West Pharmaceutical Services;WST;1.2;730.0
-Western Digital;WDC;1.2;730.0
-Weyerhaeuser;WY;1.2;730.0
-"Williams-Sonoma; Inc.";WSM;1.2;730.0
-Williams Companies;WMB;1.2;730.0
-Willis Towers Watson;WTW;1.2;730.0
-"Workday; Inc.";WDAY;1.2;730.0
-Wynn Resorts;WYNN;1.2;730.0
-Xcel Energy;XEL;1.2;730.0
-Xylem Inc.;XYL;1.2;730.0
-Yum! Brands;YUM;1.2;730.0
-Zebra Technologies;ZBRA;1.2;730.0
-Zimmer Biomet;ZBH;1.2;730.0
-Zoetis;ZTS;1.2;730.0
-B2Gold;BTG;1.0;730
-i-80 Gold;IAUX;1.0;730
-NexGen Energy;NXE;1.0;730
-McEwen Mining;MUX;1.0;730
-Energy Fuels;UUUU;1.0;730
-Standard Lithium;SLI;1.0;730
-Galiano Gold;GAU;1.0;730
-Uranium Roy;UROY;1.0;730
-Denison Mines;DNN;1.0;730
-Plat Group;PLG;1.0;730
-The Metals Co;TMC;1.0;730
-Hycroft Min;HYMC;1.0;730
-Vista Gold;VGZ;1.0;730
-Paramount Au;PZG;1.0;730
-Osino Res;OSI.V;1.0;730
-Argonaut Gold;AR.TO;1.0;730
-Western Uranium;WUC.CN;1.0;730
-Amer Lithium;LI.V;1.0;730
-Victoria Gold;VGCX.TO;1.0;730
-Montero Mining;MON.V;1.0;730
-Vision Lithium;VLI.V;1.0;730
-FPX Nickel;FPX.V;1.0;730
-Sayona Min;SYA.AX;1.0;730
-De Grey Min;DEG.AX;1.0;730
-Core Lithium;CXO.AX;1.0;730
-Paladin Energy;PDN.AX;1.0;730
-Lake Resources;LKE.AX;1.0;730
-Gold Mountain;GMN.AX;1.0;730
-Larvotto Res;LRV.AX;1.0;730
-Auric Mining;AWJ.AX;1.0;730
-Nickel Ind;NIC.AX;1.0;730
-Jupiter Mines;JMS.AX;1.0;730
-Silver X Mining;AGX.V;1.0;730
-GoldMining Can;GOLD.TO;1.0;730
-GoldMining USA;GLDG;1.0;730
-Dolly Varden;DV.V;1.0;730
-Excellon Res;EXN.TO;1.0;730
-Guanajuato Ag;GSVR.V;1.0;730
-TomaGold;LOT.V;1.0;730
-Americas Gold;USA.TO;1.0;730
-Stelmine Can;STH.V;1.0;730
-Gold Reserve;GRZ;1.0;730
-North Dynasty;NAK;1.0;730
-US Gold Corp;USAU;1.0;730
-Solitario Res;XPL;1.0;730
-Argosy Min;AGY.AX;1.0;730
-Green Tech;GT1.AX;1.0;730
-Gascoyne Res;GCY.AX;1.0;730
+Nom;Ticker;Coef;Days;DE_Ratio;Fair_Value;Date_MAJ
+BitCoin;BTC-EUR;1.2;730.0;;;28/02/2026
+Ethereum;ETH-EUR;1.0;730.0;;;28/02/2026
+Solana;SOL-EUR;1.1;730.0;;;28/02/2026
+Accor;AC.PA;0.85;730.0;91.2;56.622;28/02/2026
+Air Liquide;AI.PA;1.0;380.0;50.61;195.524;28/02/2026
+Airbus;AIR.PA;1.0;730.0;54.42;216.341;28/02/2026
+ArcelorMittal;MT.AS;1.0;730.0;23.72;52.188;28/02/2026
+AXA;CS.PA;1.0;730.0;116.6;45.84;28/02/2026
+BNP Paribas;BNP.PA;1.0;730.0;;100.664;28/02/2026
+Bouygues;EN.PA;1.0;730.0;102.67;52.98;28/02/2026
+Bureau Veritas;BVI.PA;1.0;730.0;175.99;33.682;28/02/2026
+Capgemini;CAP.PA;1.0;730.0;;156.823;28/02/2026
+Carrefour;CA.PA;1.0;730.0;180.58;14.708;28/02/2026
+Crédit Agricole;ACA.PA;1.0;730.0;;20.062;28/02/2026
+Danone;BN.PA;1.8;730.0;89.09;79.845;28/02/2026
+Dassault System;DSY.PA;2.0;730.0;29.5;24.591;28/02/2026
+Edenred;EDEN.PA;1.0;730.0;;26.847;28/02/2026
+Engie;ENGI.PA;1.0;730.0;133.65;26.065;28/02/2026
+EssilorLuxottica;EL.PA;1.0;730.0;36.46;316.591;28/02/2026
+Eurofins Scientific;ERF.PA;1.0;730.0;96.84;71.707;28/02/2026
+Exosens;EXENS.PA;1.0;730.0;59.77;61.55;28/02/2026
+Hermès;RMS.PA;1.0;730.0;12.27;2374.773;28/02/2026
+Kering;KER.PA;1.0;730.0;119.65;299.583;28/02/2026
+L'Oréal;OR.PA;1.0;730.0;34.04;402.38;28/02/2026
+Legrand;LR.PA;1.0;730.0;90.04;154.778;28/02/2026
+LVMH;MC.PA;1.0;730.0;53.34;643.282;28/02/2026
+Michelin;ML.PA;1.0;730.0;;32.786;28/02/2026
+Orange;ORA.PA;1.0;730.0;138.08;17.106;28/02/2026
+Pernod Ricard;RI.PA;1.0;730.0;82.29;94.575;28/02/2026
+Publicis;PUB.PA;1.0;730.0;54.31;108.643;28/02/2026
+Renault;RNO.PA;1.0;730.0;;41.02;28/02/2026
+Safran;SAF.PA;1.0;730.0;34.45;354.861;28/02/2026
+Saint-Gobain;SGO.PA;1.0;730.0;77.83;104.284;28/02/2026
+Sanofi;SAN.PA;1.0;730.0;28.35;98.487;28/02/2026
+Schneider Electric;SU.PA;1.0;730.0;81.41;290.955;28/02/2026
+Société Générale;GLE.PA;1.0;730.0;;79.604;28/02/2026
+Stellantis;STLAP.PA;1.0;730.0;85.08;8.5;28/02/2026
+ST MicroElectronic;STMPA.PA;1.8;730.0;11.7;28.694;28/02/2026
+Teleperformance;TEP.PA;1.2;730.0;121.28;92.933;28/02/2026
+Thalès;HO.PA;1.2;730.0;102.06;285.667;28/02/2026
+Total Energie;TTE.PA;1.0;730.0;52.26;66.969;28/02/2026
+Unibail-Rodamco-Westfield;URW.PA;1.2;730.0;108.25;110.95;28/02/2026
+Veolia;VIE.PA;1.2;730.0;222.53;36.476;28/02/2026
+Vinci;DG.PA;1.2;730.0;118.76;140.905;28/02/2026
+3M;MMM;1.2;730.0;276.64;178.204;28/02/2026
+A. O. Smith;AOS;1.2;730.0;10.97;79.909;28/02/2026
+Abbott Laboratories;ABT;1.2;730.0;26.79;133.389;28/02/2026
+AbbVie;ABBV;1.2;730.0;;248.69;28/02/2026
+Accenture;ACN;1.2;730.0;25.69;288.625;28/02/2026
+Adobe Inc.;ADBE;1.2;730.0;57.27;408.466;28/02/2026
+Advanced Micro Devices;AMD;1.2;730.0;6.36;290.255;28/02/2026
+AES Corporation;AES;1.2;730.0;302.9;15.542;28/02/2026
+Aflac;AFL;1.2;730.0;42.68;113.0;28/02/2026
+Agilent Technologies;A;1.2;730.0;48.55;162.833;28/02/2026
+Air Products;APD;1.2;730.0;101.99;302.363;28/02/2026
+Airbnb;ABNB;1.2;730.0;27.7;144.306;28/02/2026
+Akamai Technologies;AKAM;1.2;730.0;114.02;108.592;28/02/2026
+Albemarle Corporation;ALB;1.2;730.0;33.95;188.74;28/02/2026
+Alexandria Real Estate Equities;ARE;1.2;730.0;66.61;60.071;28/02/2026
+Align Technology;ALGN;1.2;730.0;2.04;200.667;28/02/2026
+Allegion;ALLE;1.2;730.0;104.0;179.545;28/02/2026
+Alliant Energy;LNT;1.2;730.0;168.08;74.091;28/02/2026
+Allstate;ALL;1.2;730.0;25.09;239.952;28/02/2026
+Alphabet;GOOGL;1.4;730.0;16.13;376.86;28/02/2026
+Alphabet Inc. (Class C);GOOG;1.2;730.0;16.13;359.235;28/02/2026
+Altria;MO;1.2;730.0;;64.417;28/02/2026
+Amazon;AMZN;1.2;730.0;43.44;280.468;28/02/2026
+Amcor;AMCR;1.2;730.0;138.73;53.491;28/02/2026
+Ameren;AEE;1.2;730.0;147.12;115.538;28/02/2026
+American Electric Power;AEP;1.2;730.0;154.24;133.921;28/02/2026
+American Express;AXP;1.2;730.0;190.92;380.621;28/02/2026
+American International Group;AIG;1.2;730.0;24.41;87.1;28/02/2026
+American Tower;AMT;1.2;730.0;434.21;217.35;28/02/2026
+American Water Works;AWK;1.2;730.0;146.99;138.0;28/02/2026
+Ameriprise Financial;AMP;1.2;730.0;57.6;570.0;28/02/2026
+Ametek;AME;1.2;730.0;24.19;248.294;28/02/2026
+Amgen;AMGN;1.2;730.0;640.27;350.036;28/02/2026
+Amphenol;APH;1.2;730.0;118.94;169.444;28/02/2026
+Analog Devices;ADI;1.2;730.0;25.75;382.364;28/02/2026
+Aon plc;AON;1.2;730.0;168.32;397.474;28/02/2026
+APA Corporation;APA;1.2;730.0;64.16;27.464;28/02/2026
+Apollo Global Management;APO;1.2;730.0;99.47;158.471;28/02/2026
+Apple Inc.;AAPL;1.2;730.0;102.63;293.07;28/02/2026
+Applied Materials;AMAT;1.2;730.0;33.11;409.219;28/02/2026
+AppLovin;APP;1.2;730.0;171.8;660.106;28/02/2026
+Aptiv;APTV;1.2;730.0;85.21;101.25;28/02/2026
+Arch Capital Group;ACGL;1.2;730.0;11.92;109.316;28/02/2026
+Archer Daniels Midland;ADM;1.2;730.0;42.38;60.727;28/02/2026
+Ares Management;ARES;1.2;730.0;163.45;173.647;28/02/2026
+Arista Networks;ANET;1.2;730.0;0.18;178.063;28/02/2026
+Arthur J. Gallagher & Co.;AJG;1.2;730.0;58.35;282.889;28/02/2026
+Assurant;AIZ;1.2;730.0;38.84;261.333;28/02/2026
+AT&T;T;1.2;730.0;124.18;29.413;28/02/2026
+Atmos Energy;ATO;1.2;730.0;67.44;180.9;28/02/2026
+Autodesk;ADSK;1.2;730.0;89.79;335.236;28/02/2026
+Automatic Data Processing;ADP;1.2;730.0;70.04;276.714;28/02/2026
+AutoZone;AZO;1.2;730.0;;4204.708;28/02/2026
+AvalonBay Communities;AVB;1.2;730.0;78.83;198.075;28/02/2026
+Avery Dennison;AVY;1.2;730.0;176.34;211.9;28/02/2026
+Axon Enterprise;AXON;1.2;730.0;59.11;735.013;28/02/2026
+Baker Hughes;BKR;1.2;730.0;35.26;61.143;28/02/2026
+Ball Corporation;BALL;1.2;730.0;136.03;70.154;28/02/2026
+Bank of America;BAC;1.2;730.0;;62.521;28/02/2026
+Baxter International;BAX;1.2;730.0;160.28;21.633;28/02/2026
+Becton Dickinson;BDX;1.2;730.0;77.28;197.154;28/02/2026
+Berkshire Hathaway;BRK-B;1.2;730.0;18.17;526.0;28/02/2026
+Best Buy;BBY;1.2;730.0;154.54;77.95;28/02/2026
+Bio-Techne;TECH;1.2;730.0;17.45;75.25;28/02/2026
+Biogen;BIIB;1.2;730.0;36.47;205.667;28/02/2026
+BlackRock;BLK;1.2;730.0;24.32;1328.438;28/02/2026
+Blackstone Inc.;BX;1.2;730.0;60.81;166.474;28/02/2026
+"Block; Inc.";XYZ;1.2;730.0;40.19;85.286;28/02/2026
+BNY Mellon;BK;1.2;730.0;;133.833;28/02/2026
+Boeing;BA;1.2;730.0;1032.89;271.625;28/02/2026
+Booking Holdings;BKNG;1.2;730.0;;5816.771;28/02/2026
+Boston Scientific;BSX;1.2;730.0;48.92;104.75;28/02/2026
+Bristol Myers Squibb;BMY;1.2;730.0;254.98;61.76;28/02/2026
+Broadcom;AVGO;1.2;730.0;166.03;455.1;28/02/2026
+Broadridge Financial Solutions;BR;1.2;730.0;117.17;245.875;28/02/2026
+Brown & Brown;BRO;1.2;730.0;62.98;83.357;28/02/2026
+Brown–Forman;BF-B;1.2;730.0;64.03;30.259;28/02/2026
+Builders FirstSource;BLDR;1.2;730.0;117.19;127.286;28/02/2026
+Bunge Global;BG;1.2;730.0;91.01;126.0;28/02/2026
+"BXP; Inc.";BXP;1.2;730.0;225.89;74.65;28/02/2026
+C.H. Robinson;CHRW;1.2;730.0;75.6;193.52;28/02/2026
+Cadence Design Systems;CDNS;1.2;730.0;48.71;371.819;28/02/2026
+Camden Property Trust;CPT;1.2;730.0;88.4;115.477;28/02/2026
+Campbell's Company (The);CPB;1.2;730.0;184.57;31.556;28/02/2026
+Capital One;COF;1.2;730.0;;276.714;28/02/2026
+Cardinal Health;CAH;1.2;730.0;;248.8;28/02/2026
+Carnival;CCL;1.2;730.0;227.88;38.004;28/02/2026
+Carrier Global;CARR;1.2;730.0;87.72;71.799;28/02/2026
+Carvana;CVNA;1.2;730.0;133.12;428.5;28/02/2026
+Caterpillar Inc.;CAT;1.2;730.0;206.67;725.522;28/02/2026
+Cboe Global Markets;CBOE;1.2;730.0;30.96;282.077;28/02/2026
+CBRE Group;CBRE;1.2;730.0;106.24;181.583;28/02/2026
+CDW Corporation;CDW;1.2;730.0;236.87;167.4;28/02/2026
+Cencora;COR;1.2;730.0;472.58;403.786;28/02/2026
+Centene Corporation;CNC;1.2;730.0;90.56;44.353;28/02/2026
+CenterPoint Energy;CNP;1.2;730.0;206.6;43.562;28/02/2026
+CF Industries;CF;1.2;730.0;46.77;96.684;28/02/2026
+Charles River Laboratories;CRL;1.2;730.0;81.95;197.2;28/02/2026
+Charles Schwab Corporation;SCHW;1.2;730.0;115.32;121.0;28/02/2026
+Charter Communications;CHTR;1.2;730.0;482.33;282.188;28/02/2026
+Chevron Corporation;CVX;1.2;730.0;24.32;183.458;28/02/2026
+Chipotle Mexican Grill;CMG;1.2;730.0;179.32;44.324;28/02/2026
+Chubb Limited;CB;1.2;730.0;25.26;337.087;28/02/2026
+Church & Dwight;CHD;1.2;730.0;59.52;103.579;28/02/2026
+Ciena;CIEN;1.2;730.0;59.61;246.938;28/02/2026
+Cigna;CI;1.2;730.0;75.14;332.615;28/02/2026
+Cincinnati Financial;CINF;1.2;730.0;5.57;173.667;28/02/2026
+Cintas;CTAS;1.2;730.0;72.66;216.684;28/02/2026
+Cisco;CSCO;1.2;730.0;66.51;88.809;28/02/2026
+Citigroup;C;1.2;730.0;;134.773;28/02/2026
+Citizens Financial Group;CFG;1.2;730.0;;72.7;28/02/2026
+Clorox;CLX;1.2;730.0;9191.43;123.471;28/02/2026
+CME Group;CME;1.2;730.0;11.91;299.286;28/02/2026
+CMS Energy;CMS;1.2;730.0;194.86;78.846;28/02/2026
+Coca-Cola Company (The);KO;1.2;730.0;139.79;82.625;28/02/2026
+Cognizant;CTSH;1.2;730.0;7.82;90.195;28/02/2026
+Coinbase;COIN;1.2;730.0;53.12;250.898;28/02/2026
+Colgate-Palmolive;CL;1.2;730.0;2343.56;96.684;28/02/2026
+Comcast;CMCSA;1.2;730.0;107.86;33.011;28/02/2026
+Comfort Systems USA;FIX;1.2;730.0;19.74;1696.2;28/02/2026
+Conagra Brands;CAG;1.2;730.0;94.23;19.106;28/02/2026
+ConocoPhillips;COP;1.2;730.0;37.83;116.111;28/02/2026
+Consolidated Edison;ED;1.2;730.0;117.32;108.062;28/02/2026
+Constellation Brands;STZ;1.2;730.0;133.29;170.727;28/02/2026
+Constellation Energy;CEG;1.2;730.0;63.94;393.934;28/02/2026
+Cooper Companies (The);COO;1.2;730.0;33.78;91.0;28/02/2026
+Copart;CPRT;1.2;730.0;0.98;43.111;28/02/2026
+Corning Inc.;GLW;1.2;730.0;76.19;124.538;28/02/2026
+Corpay;CPAY;1.2;730.0;236.52;384.714;28/02/2026
+Corteva;CTVA;1.2;730.0;12.28;82.762;28/02/2026
+CoStar Group;CSGP;1.2;730.0;14.14;65.632;28/02/2026
+Costco;COST;1.2;730.0;26.97;1049.531;28/02/2026
+Coterra;CTRA;1.2;730.0;25.72;33.022;28/02/2026
+CRH plc;CRH;1.2;730.0;77.34;141.883;28/02/2026
+CrowdStrike;CRWD;1.2;730.0;20.15;525.509;28/02/2026
+Crown Castle;CCI;1.2;730.0;;98.911;28/02/2026
+CSX Corporation;CSX;1.2;730.0;148.22;39.979;28/02/2026
+Cummins;CMI;1.2;730.0;60.52;613.234;28/02/2026
+CVS Health;CVS;1.2;730.0;106.06;96.5;28/02/2026
+Danaher Corporation;DHR;1.2;730.0;37.49;264.909;28/02/2026
+Darden Restaurants;DRI;1.2;730.0;401.27;222.345;28/02/2026
+Datadog;DDOG;1.2;730.0;34.27;182.431;28/02/2026
+DaVita;DVA;1.2;730.0;1111.35;151.714;28/02/2026
+Deckers Brands;DECK;1.2;730.0;13.14;128.524;28/02/2026
+Deere & Company;DE;1.2;730.0;237.05;665.331;28/02/2026
+Dell Technologies;DELL;1.2;730.0;;162.565;28/02/2026
+Delta Air Lines;DAL;1.2;730.0;102.5;81.888;28/02/2026
+Devon Energy;DVN;1.2;730.0;55.95;48.926;28/02/2026
+Dexcom;DXCM;1.2;730.0;50.85;85.462;28/02/2026
+Diamondback Energy;FANG;1.2;730.0;33.78;185.645;28/02/2026
+Digital Realty;DLR;1.2;730.0;81.66;195.179;28/02/2026
+Dollar General;DG;1.2;730.0;201.66;147.393;28/02/2026
+Dollar Tree;DLTR;1.2;730.0;221.06;125.304;28/02/2026
+Dominion Energy;D;1.2;730.0;150.09;64.688;28/02/2026
+Domino's;DPZ;1.2;730.0;;478.581;28/02/2026
+DoorDash;DASH;1.2;730.0;32.75;260.905;28/02/2026
+Dover Corporation;DOV;1.2;730.0;48.4;227.351;28/02/2026
+Dow Inc.;DOW;1.2;730.0;111.87;29.188;28/02/2026
+D. R. Horton;DHI;1.2;730.0;22.87;160.5;28/02/2026
+DTE Energy;DTE;1.2;730.0;213.6;151.5;28/02/2026
+Duke Energy;DUK;1.2;730.0;171.39;136.235;28/02/2026
+DuPont;DD;1.2;730.0;24.48;56.125;28/02/2026
+Eaton Corporation;ETN;1.2;730.0;54.09;408.448;28/02/2026
+eBay Inc.;EBAY;1.2;730.0;155.62;98.9;28/02/2026
+Ecolab;ECL;1.2;730.0;103.92;321.857;28/02/2026
+Edison International;EIX;1.2;730.0;215.74;72.885;28/02/2026
+Edwards Lifesciences;EW;1.2;730.0;6.82;96.464;28/02/2026
+Electronic Arts;EA;1.2;730.0;36.44;205.588;28/02/2026
+Elevance Health;ELV;1.2;730.0;74.39;387.85;28/02/2026
+Emcor;EME;1.2;730.0;12.74;797.833;28/02/2026
+Emerson Electric;EMR;1.2;730.0;69.28;166.658;28/02/2026
+Entergy;ETR;1.2;730.0;181.79;106.965;28/02/2026
+EOG Resources;EOG;1.2;730.0;30.62;132.857;28/02/2026
+EPAM Systems;EPAM;1.2;730.0;3.91;194.941;28/02/2026
+EQT Corporation;EQT;1.2;730.0;28.93;65.222;28/02/2026
+Equifax;EFX;1.2;730.0;110.64;237.6;28/02/2026
+Equinix;EQIX;1.2;730.0;160.29;1023.269;28/02/2026
+Equity Residential;EQR;1.2;730.0;74.32;70.0;28/02/2026
+Erie Indemnity;ERIE;1.2;730.0;2.71;65.502;28/02/2026
+Essex Property Trust;ESS;1.2;730.0;119.43;281.375;28/02/2026
+Estée Lauder Companies (The);EL;1.2;730.0;232.94;107.833;28/02/2026
+Everest Group;EG;1.2;730.0;23.21;364.533;28/02/2026
+Evergy;EVRG;1.2;730.0;149.92;86.864;28/02/2026
+Eversource Energy;ES;1.2;730.0;184.95;74.923;28/02/2026
+Exelon;EXC;1.2;730.0;174.49;49.938;28/02/2026
+Expand Energy;EXE;1.2;730.0;27.5;130.321;28/02/2026
+Expedia Group;EXPE;1.2;730.0;254.69;281.588;28/02/2026
+Expeditors International;EXPD;1.2;730.0;24.2;138.933;28/02/2026
+Extra Space Storage;EXR;1.2;730.0;98.68;150.95;28/02/2026
+ExxonMobil;XOM;1.2;730.0;18.94;142.042;28/02/2026
+"F5; Inc.";FFIV;1.2;730.0;7.57;310.3;28/02/2026
+FactSet;FDS;1.2;730.0;71.96;305.235;28/02/2026
+Fair Isaac;FICO;1.2;730.0;;1971.294;28/02/2026
+Fastenal;FAST;1.2;730.0;11.21;44.762;28/02/2026
+Federal Realty Investment Trust;FRT;1.2;730.0;143.64;114.474;28/02/2026
+FedEx;FDX;1.2;730.0;;375.536;28/02/2026
+Fidelity National Information Services;FIS;1.2;730.0;95.89;67.6;28/02/2026
+Fifth Third Bancorp;FITB;1.2;730.0;;57.325;28/02/2026
+First Solar;FSLR;1.2;730.0;6.87;262.108;28/02/2026
+FirstEnergy;FE;1.2;730.0;192.75;51.385;28/02/2026
+Fiserv;FISV;1.2;730.0;;77.077;28/02/2026
+Ford Motor Company;F;1.2;730.0;460.64;13.972;28/02/2026
+Fortinet;FTNT;1.2;730.0;85.8;89.818;28/02/2026
+Fortive;FTV;1.2;730.0;51.18;62.188;28/02/2026
+Fox Corporation (Class A);FOXA;1.2;730.0;67.39;71.765;28/02/2026
+Fox Corporation (Class B);FOX;1.2;730.0;67.39;38.545;28/02/2026
+Franklin Resources;BEN;1.2;730.0;24.59;27.364;28/02/2026
+Freeport-McMoRan;FCX;1.2;730.0;34.1;66.47;28/02/2026
+Galaxy Digital;GLXY;1.2;730.0;175.66;41.667;28/02/2026
+Garmin;GRMN;1.2;730.0;2.18;260.25;28/02/2026
+Gartner;IT;1.2;730.0;1046.54;190.462;28/02/2026
+GE Aerospace;GE;1.2;730.0;114.07;361.111;28/02/2026
+GE HealthCare;GEHC;1.2;730.0;98.72;93.25;28/02/2026
+GE Vernova;GEV;1.2;730.0;9.73;836.983;28/02/2026
+Gen Digital;GEN;1.2;730.0;363.38;32.55;28/02/2026
+Generac;GNRC;1.2;730.0;52.48;241.647;28/02/2026
+General Dynamics;GD;1.2;730.0;38.2;394.527;28/02/2026
+General Mills;GIS;1.2;730.0;147.23;48.158;28/02/2026
+General Motors;GM;1.2;730.0;208.3;94.625;28/02/2026
+Genuine Parts Company;GPC;1.2;730.0;156.06;143.5;28/02/2026
+Gilead Sciences;GILD;1.2;730.0;112.92;156.593;28/02/2026
+Global Payments;GPN;1.2;730.0;93.32;101.846;28/02/2026
+Globe Life;GL;1.2;730.0;55.22;172.1;28/02/2026
+GoDaddy;GDDY;1.2;730.0;1795.72;124.786;28/02/2026
+Goldman Sachs;GS;1.2;730.0;596.07;959.2;28/02/2026
+Halliburton;HAL;1.2;730.0;79.16;36.339;28/02/2026
+Hartford (The);HIG;1.2;730.0;23.94;150.85;28/02/2026
+Hasbro;HAS;1.2;730.0;600.58;113.714;28/02/2026
+HCA Healthcare;HCA;1.2;730.0;;541.524;28/02/2026
+Healthpeak Properties;DOC;1.2;730.0;122.18;19.875;28/02/2026
+Henry Schein;HSIC;1.2;730.0;71.74;88.571;28/02/2026
+Hershey Company (The);HSY;1.2;730.0;123.76;229.652;28/02/2026
+Hewlett Packard Enterprise;HPE;1.2;730.0;97.27;26.009;28/02/2026
+Hilton Worldwide;HLT;1.2;730.0;;328.28;28/02/2026
+Hologic;HOLX;1.2;730.0;48.05;76.6;28/02/2026
+Home Depot (The);HD;1.2;730.0;510.03;408.515;28/02/2026
+Honeywell;HON;1.2;730.0;236.61;247.718;28/02/2026
+Hormel Foods;HRL;1.2;730.0;35.93;27.375;28/02/2026
+Host Hotels & Resorts;HST;1.2;730.0;83.78;20.895;28/02/2026
+Howmet Aerospace;HWM;1.2;730.0;60.02;276.646;28/02/2026
+HP Inc.;HPQ;1.2;730.0;;19.994;28/02/2026
+Hubbell Incorporated;HUBB;1.2;730.0;64.47;532.846;28/02/2026
+Humana;HUM;1.2;730.0;74.81;223.875;28/02/2026
+Huntington Bancshares;HBAN;1.2;730.0;;20.5;28/02/2026
+Huntington Ingalls Industries;HII;1.2;730.0;58.76;401.0;28/02/2026
+IBM;IBM;1.2;730.0;197.33;321.946;28/02/2026
+IDEX Corporation;IEX;1.2;730.0;48.25;223.538;28/02/2026
+Idexx Laboratories;IDXX;1.2;730.0;60.83;750.231;28/02/2026
+Illinois Tool Works;ITW;1.2;730.0;285.52;279.812;28/02/2026
+Incyte;INCY;1.2;730.0;1.06;107.091;28/02/2026
+Ingersoll Rand;IR;1.2;730.0;50.7;102.067;28/02/2026
+Insulet Corporation;PODD;1.2;730.0;66.18;354.4;28/02/2026
+Intel;INTC;1.2;730.0;37.28;47.118;28/02/2026
+Interactive Brokers;IBKR;1.2;730.0;121.0;80.667;28/02/2026
+Intercontinental Exchange;ICE;1.2;730.0;70.08;196.0;28/02/2026
+International Flavors & Fragrances;IFF;1.2;730.0;42.27;90.235;28/02/2026
+International Paper;IP;1.2;730.0;69.58;46.87;28/02/2026
+Intuit;INTU;1.2;730.0;;623.639;28/02/2026
+Intuitive Surgical;ISRG;1.2;730.0;0.95;609.821;28/02/2026
+Invesco;IVZ;1.2;730.0;17.16;30.136;28/02/2026
+Invitation Homes;INVH;1.2;730.0;88.12;31.955;28/02/2026
+IQVIA;IQV;1.2;730.0;245.93;236.25;28/02/2026
+Iron Mountain;IRM;1.2;730.0;;121.182;28/02/2026
+J.B. Hunt;JBHT;1.2;730.0;48.26;211.174;28/02/2026
+Jabil;JBL;1.2;730.0;255.83;264.5;28/02/2026
+Jack Henry & Associates;JKHY;1.2;730.0;3.11;203.214;28/02/2026
+Jacobs Solutions;J;1.2;730.0;65.17;157.533;28/02/2026
+Johnson & Johnson;JNJ;1.2;730.0;60.5;233.127;28/02/2026
+Johnson Controls;JCI;1.2;730.0;73.34;142.737;28/02/2026
+JPMorgan Chase;JPM;1.2;730.0;;344.348;28/02/2026
+Kenvue;KVUE;1.2;730.0;80.58;19.75;28/02/2026
+Keurig Dr Pepper;KDP;1.2;730.0;75.38;35.571;28/02/2026
+KeyCorp;KEY;1.2;730.0;;24.452;28/02/2026
+Keysight Technologies;KEYS;1.2;730.0;44.67;294.769;28/02/2026
+Kimberly-Clark;KMB;1.2;730.0;464.79;119.214;28/02/2026
+Kimco Realty;KIM;1.2;730.0;78.68;24.375;28/02/2026
+Kinder Morgan;KMI;1.2;730.0;99.71;32.143;28/02/2026
+KKR & Co.;KKR;1.2;730.0;74.35;140.875;28/02/2026
+KLA Corporation;KLAC;1.2;730.0;111.78;1666.7;28/02/2026
+Kraft Heinz;KHC;1.2;730.0;52.1;25.132;28/02/2026
+Kroger;KR;1.2;730.0;357.99;73.5;28/02/2026
+L3Harris;LHX;1.2;730.0;60.61;388.105;28/02/2026
+Labcorp;LH;1.2;730.0;75.56;307.647;28/02/2026
+Lam Research;LRCX;1.2;730.0;44.2;274.742;28/02/2026
+Lamb Weston;LW;1.2;730.0;224.85;54.636;28/02/2026
+Las Vegas Sands;LVS;1.2;730.0;829.06;69.874;28/02/2026
+Leidos;LDOS;1.2;730.0;107.66;214.0;28/02/2026
+Lennar;LEN;1.2;730.0;27.73;108.615;28/02/2026
+Lennox International;LII;1.2;730.0;152.24;559.0;28/02/2026
+Lilly (Eli);LLY;1.2;730.0;165.31;1214.345;28/02/2026
+Linde plc;LIN;1.2;730.0;70.63;512.431;28/02/2026
+Live Nation Entertainment;LYV;1.2;730.0;572.03;181.273;28/02/2026
+Lockheed Martin;LMT;1.2;730.0;338.8;657.579;28/02/2026
+Loews Corporation;L;1.2;730.0;50.22;136.06;28/02/2026
+Lowe's;LOW;1.2;730.0;;287.781;28/02/2026
+Lululemon Athletica;LULU;1.2;730.0;39.16;209.123;28/02/2026
+LyondellBasell;LYB;1.2;730.0;144.16;51.176;28/02/2026
+M&T Bank;MTB;1.2;730.0;;233.125;28/02/2026
+Marathon Petroleum;MPC;1.2;730.0;143.18;199.556;28/02/2026
+Marriott International;MAR;1.2;730.0;;354.72;28/02/2026
+Marsh McLennan;MRSH;1.2;730.0;140.05;207.95;28/02/2026
+Martin Marietta Materials;MLM;1.2;730.0;59.87;702.625;28/02/2026
+Masco;MAS;1.2;730.0;4230.26;80.316;28/02/2026
+Mastercard;MA;1.2;730.0;256.04;659.371;28/02/2026
+Match Group;MTCH;1.2;730.0;;36.471;28/02/2026
+McCormick & Company;MKC;1.2;730.0;73.21;73.846;28/02/2026
+McDonald's;MCD;1.2;730.0;;341.281;28/02/2026
+McKesson Corporation;MCK;1.2;730.0;;980.4;28/02/2026
+Medtronic;MDT;1.2;730.0;57.06;111.692;28/02/2026
+Merck & Co.;MRK;1.2;730.0;95.96;126.571;28/02/2026
+Meta Platforms;META;1.2;730.0;39.16;863.199;28/02/2026
+MetLife;MET;1.2;730.0;225.97;91.467;28/02/2026
+Mettler Toledo;MTD;1.2;730.0;;1501.385;28/02/2026
+MGM Resorts;MGM;1.2;730.0;963.09;42.611;28/02/2026
+Microchip Technology;MCHP;1.2;730.0;82.38;86.6;28/02/2026
+Micron Technology;MU;1.2;730.0;21.24;390.897;28/02/2026
+Microsoft;MSFT;1.2;730.0;31.54;595.996;28/02/2026
+Mid-America Apartment Communities;MAA;1.2;730.0;93.31;145.792;28/02/2026
+Moderna;MRNA;1.2;730.0;15.09;42.25;28/02/2026
+Molina Healthcare;MOH;1.2;730.0;99.44;157.562;28/02/2026
+Molson Coors Beverage Company;TAP;1.2;730.0;61.77;48.19;28/02/2026
+Mondelez International;MDLZ;1.2;730.0;84.85;66.875;28/02/2026
+Monolithic Power Systems;MPWR;1.2;730.0;;1328.286;28/02/2026
+Monster Beverage;MNST;1.2;730.0;;85.202;28/02/2026
+Moody's Corporation;MCO;1.2;730.0;176.81;546.7;28/02/2026
+Morgan Stanley;MS;1.2;730.0;455.75;195.524;28/02/2026
+Mosaic Company (The);MOS;1.2;730.0;41.31;31.8;28/02/2026
+Motorola Solutions;MSI;1.2;730.0;402.39;502.0;28/02/2026
+MSCI Inc.;MSCI;1.2;730.0;;678.312;28/02/2026
+"Nasdaq; Inc.";NDAQ;1.2;730.0;77.88;107.8;28/02/2026
+NetApp;NTAP;1.2;730.0;214.68;119.5;28/02/2026
+Netflix;NFLX;1.2;730.0;63.78;113.708;28/02/2026
+Newmont;NEM;1.2;730.0;16.74;136.083;28/02/2026
+News Corp (Class A);NWSA;1.2;730.0;30.89;34.05;28/02/2026
+News Corp (Class B);NWS;1.2;730.0;30.89;23.651;28/02/2026
+NextEra Energy;NEE;1.2;730.0;146.24;93.055;28/02/2026
+"Nike; Inc.";NKE;1.2;730.0;80.1;76.152;28/02/2026
+NiSource;NI;1.2;730.0;139.28;48.077;28/02/2026
+Nordson Corporation;NDSN;1.2;730.0;66.99;313.4;28/02/2026
+Norfolk Southern;NSC;1.2;730.0;114.74;309.211;28/02/2026
+Northern Trust;NTRS;1.2;730.0;;157.107;28/02/2026
+Northrop Grumman;NOC;1.2;730.0;107.26;724.391;28/02/2026
+Norwegian Cruise Line Holdings;NCLH;1.2;730.0;699.72;27.25;28/02/2026
+NRG Energy;NRG;1.2;730.0;989.05;205.143;28/02/2026
+Nucor;NUE;1.2;730.0;32.19;186.077;28/02/2026
+Nvidia;NVDA;1.2;730.0;7.25;262.507;28/02/2026
+"NVR; Inc.";NVR;1.2;730.0;28.34;8080.5;28/02/2026
+NXP Semiconductors;NXPI;1.2;730.0;119.71;260.969;28/02/2026
+O’Reilly Automotive;ORLY;1.2;730.0;;105.72;28/02/2026
+Occidental Petroleum;OXY;1.2;730.0;63.8;51.88;28/02/2026
+Old Dominion;ODFL;1.2;730.0;3.28;197.083;28/02/2026
+Omnicom Group;OMC;1.2;730.0;86.31;100.5;28/02/2026
+ON Semiconductor;ON;1.2;730.0;42.29;68.2;28/02/2026
+Oneok;OKE;1.2;730.0;146.45;88.421;28/02/2026
+Oracle Corporation;ORCL;1.2;730.0;432.51;269.944;28/02/2026
+Otis Worldwide;OTIS;1.2;730.0;;102.5;28/02/2026
+Paccar;PCAR;1.2;730.0;81.94;124.786;28/02/2026
+Packaging Corporation of America;PKG;1.2;730.0;91.62;231.9;28/02/2026
+Palantir Technologies;PLTR;1.2;730.0;3.06;184.488;28/02/2026
+Palo Alto Networks;PANW;1.2;730.0;4.89;208.823;28/02/2026
+Paramount Skydance Corporation;PSKY;1.2;730.0;117.11;13.231;28/02/2026
+Parker Hannifin;PH;1.2;730.0;68.92;1031.385;28/02/2026
+Paychex;PAYX;1.2;730.0;129.81;119.067;28/02/2026
+Paycom;PAYC;1.2;730.0;5.21;151.176;28/02/2026
+PayPal;PYPL;1.2;730.0;60.7;51.906;28/02/2026
+Pentair;PNR;1.2;730.0;45.65;113.526;28/02/2026
+PepsiCo;PEP;1.2;730.0;258.08;170.381;28/02/2026
+Pfizer;PFE;1.2;730.0;66.53;28.426;28/02/2026
+PG&E Corporation;PCG;1.2;730.0;187.04;22.133;28/02/2026
+Philip Morris International;PM;1.2;730.0;;194.094;28/02/2026
+Phillips 66;PSX;1.2;730.0;71.38;157.55;28/02/2026
+Pinnacle West Capital;PNW;1.2;730.0;197.56;100.846;28/02/2026
+PNC Financial Services;PNC;1.2;730.0;;251.905;28/02/2026
+Pool Corporation;POOL;1.2;730.0;129.51;266.091;28/02/2026
+PPG Industries;PPG;1.2;730.0;97.59;125.3;28/02/2026
+PPL Corporation;PPL;1.2;730.0;131.15;40.533;28/02/2026
+Principal Financial Group;PFG;1.2;730.0;34.91;94.545;28/02/2026
+Procore Tech;PCOR;1.2;730.0;6.28;72.556;28/02/2026
+Procter & Gamble;PG;1.2;730.0;68.72;168.0;28/02/2026
+Progressive Corporation;PGR;1.2;730.0;22.75;238.35;28/02/2026
+Prologis;PLD;1.2;730.0;61.78;140.75;28/02/2026
+Prudential Financial;PRU;1.2;730.0;124.48;113.0;28/02/2026
+Public Service Enterprise Group;PEG;1.2;730.0;138.21;88.265;28/02/2026
+PTC Inc.;PTC;1.2;730.0;35.94;195.0;28/02/2026
+Public Storage;PSA;1.2;730.0;109.76;305.611;28/02/2026
+PulteGroup;PHM;1.2;730.0;18.45;141.385;28/02/2026
+Quanta Services;PWR;1.2;730.0;71.1;580.127;28/02/2026
+Qualcomm;QCOM;1.2;730.0;64.22;161.037;28/02/2026
+Quest Diagnostics;DGX;1.2;730.0;87.59;217.375;28/02/2026
+Qnity Electronics;Q;1.2;730.0;54.67;134.0;28/02/2026
+Ralph Lauren Corporation;RL;1.2;730.0;98.97;404.762;28/02/2026
+Raymond James Financial;RJF;1.2;730.0;46.26;184.833;28/02/2026
+RTX Corporation;RTX;1.2;730.0;59.51;216.924;28/02/2026
+Realty Income;O;1.2;730.0;73.5;65.55;28/02/2026
+Regency Centers;REG;1.2;730.0;69.39;80.3;28/02/2026
+Regeneron Pharmaceuticals;REGN;1.2;730.0;9.51;869.962;28/02/2026
+Regions Financial Corporation;RF;1.2;730.0;;30.943;28/02/2026
+Republic Services;RSG;1.2;730.0;115.35;244.042;28/02/2026
+ResMed;RMD;1.2;730.0;13.41;297.467;28/02/2026
+Revvity;RVTY;1.2;730.0;46.87;119.562;28/02/2026
+Robinhood Markets;HOOD;1.2;730.0;136.04;130.1;28/02/2026
+Rockwell Automation;ROK;1.2;730.0;99.29;428.662;28/02/2026
+"Rollins; Inc.";ROL;1.2;730.0;75.53;63.66;28/02/2026
+Roper Technologies;ROP;1.2;730.0;47.96;462.192;28/02/2026
+Ross Stores;ROST;1.2;730.0;88.18;209.938;28/02/2026
+Royal Caribbean Group;RCL;1.2;730.0;215.09;363.5;28/02/2026
+S&P Global;SPGI;1.2;730.0;37.91;537.905;28/02/2026
+Salesforce;CRM;1.2;730.0;29.04;285.277;28/02/2026
+Sandisk;SNDK;1.2;730.0;7.96;724.263;28/02/2026
+SBA Communications;SBAC;1.2;730.0;;226.111;28/02/2026
+Schlumberger;SLB;1.2;730.0;45.98;55.296;28/02/2026
+Seagate Technology;STX;1.2;730.0;1046.62;475.354;28/02/2026
+Sempra;SRE;1.2;730.0;83.39;101.25;28/02/2026
+Semtech;SMTC;1.1;730.0;91.19;87.143;28/02/2026
+ServiceNow;NOW;1.2;730.0;18.54;190.547;28/02/2026
+Sherwin-Williams;SHW;1.2;730.0;306.06;387.429;28/02/2026
+Simon Property Group;SPG;1.2;730.0;435.46;202.05;28/02/2026
+Skyworks Solutions;SWKS;1.2;730.0;20.71;71.5;28/02/2026
+J.M. Smucker Company (The);SJM;1.2;730.0;139.96;123.438;28/02/2026
+Smurfit Westrock;SW;1.2;730.0;75.04;59.143;28/02/2026
+Snap-on;SNA;1.2;730.0;21.71;371.438;28/02/2026
+Solventum;SOLV;1.2;730.0;99.72;90.167;28/02/2026
+Southern Company;SO;1.2;730.0;190.59;98.425;28/02/2026
+Southwest Airlines;LUV;1.2;730.0;74.94;48.43;28/02/2026
+Stanley Black & Decker;SWK;1.2;730.0;70.02;92.082;28/02/2026
+Starbucks;SBUX;1.2;730.0;;100.161;28/02/2026
+State Street Corporation;STT;1.2;730.0;;144.3;28/02/2026
+Steel Dynamics;STLD;1.2;730.0;47.16;193.099;28/02/2026
+Steris;STE;1.2;730.0;28.65;281.25;28/02/2026
+Stryker Corporation;SYK;1.2;730.0;72.97;424.895;28/02/2026
+Supermicro;SMCI;1.2;730.0;75.28;41.312;28/02/2026
+Synchrony Financial;SYF;1.2;730.0;;90.261;28/02/2026
+Synopsys;SNPS;1.2;730.0;35.58;538.919;28/02/2026
+Sysco;SYY;1.2;730.0;640.25;90.688;28/02/2026
+T-Mobile US;TMUS;1.2;730.0;208.85;268.52;28/02/2026
+T. Rowe Price;TROW;1.2;730.0;3.89;102.083;28/02/2026
+Take-Two Interactive;TTWO;1.2;730.0;100.45;278.418;28/02/2026
+"Tapestry; Inc.";TPR;1.2;730.0;715.48;159.684;28/02/2026
+Targa Resources;TRGP;1.2;730.0;548.63;236.95;28/02/2026
+Target Corporation;TGT;1.2;730.0;132.06;106.438;28/02/2026
+TE Connectivity;TEL;1.2;730.0;45.69;275.368;28/02/2026
+Teledyne Technologies;TDY;1.2;730.0;25.13;686.154;28/02/2026
+Teradyne;TER;1.2;730.0;10.13;302.706;28/02/2026
+"Tesla; Inc.";TSLA;1.2;730.0;17.76;421.729;28/02/2026
+Texas Instruments;TXN;1.2;730.0;90.82;221.55;28/02/2026
+Texas Pacific Land Corporation;TPL;1.2;730.0;1.22;444.5;28/02/2026
+Textron;TXT;1.2;730.0;54.38;99.282;28/02/2026
+Thermo Fisher Scientific;TMO;1.2;730.0;73.57;666.458;28/02/2026
+TJX Companies;TJX;1.2;730.0;132.38;171.333;28/02/2026
+TKO Group Holdings;TKO;1.2;730.0;43.92;232.5;28/02/2026
+Trade Desk (The);TTD;1.2;730.0;17.56;34.985;28/02/2026
+Tractor Supply;TSCO;1.2;730.0;230.23;57.593;28/02/2026
+Trane Technologies;TT;1.2;730.0;63.25;479.731;28/02/2026
+TransDigm Group;TDG;1.2;730.0;;1594.0;28/02/2026
+Travelers Companies (The);TRV;1.2;730.0;28.92;302.762;28/02/2026
+Trimble Inc.;TRMB;1.2;730.0;26.75;93.333;28/02/2026
+Truist Financial;TFC;1.2;730.0;;57.105;28/02/2026
+Tyler Technologies;TYL;1.2;730.0;17.36;439.905;28/02/2026
+Tyson Foods;TSN;1.2;730.0;46.04;69.083;28/02/2026
+U.S. Bancorp;USB;1.2;730.0;;64.182;28/02/2026
+Uber;UBER;1.2;730.0;43.81;104.474;28/02/2026
+"UDR; Inc.";UDR;1.2;730.0;144.73;40.929;28/02/2026
+Ulta Beauty;ULTA;1.2;730.0;97.78;683.542;28/02/2026
+Union Pacific Corporation;UNP;1.2;730.0;177.73;266.083;28/02/2026
+United Airlines Holdings;UAL;1.2;730.0;203.09;138.604;28/02/2026
+United Parcel Service;UPS;1.2;730.0;175.88;113.179;28/02/2026
+United Rentals;URI;1.2;730.0;174.73;989.894;28/02/2026
+UnitedHealth Group;UNH;1.2;730.0;77.08;364.625;28/02/2026
+Universal Health Services;UHS;1.2;730.0;69.73;252.471;28/02/2026
+Valero Energy;VLO;1.2;730.0;43.99;198.222;28/02/2026
+Ventas;VTR;1.2;730.0;102.0;89.5;28/02/2026
+Veralto;VLTO;1.2;730.0;92.69;110.118;28/02/2026
+Verisign;VRSN;1.2;730.0;;276.5;28/02/2026
+Verisk Analytics;VRSK;1.2;730.0;1581.8;221.118;28/02/2026
+Verizon;VZ;1.2;730.0;174.78;49.798;28/02/2026
+Vertex Pharmaceuticals;VRTX;1.2;730.0;10.91;532.963;28/02/2026
+Viatris;VTRS;1.2;730.0;97.98;15.056;28/02/2026
+Vici Properties;VICI;1.2;730.0;62.99;34.957;28/02/2026
+Visa Inc.;V;1.2;730.0;54.61;399.639;28/02/2026
+Vistra Corp.;VST;1.2;730.0;335.78;230.0;28/02/2026
+Vulcan Materials Company;VMC;1.2;730.0;57.78;328.435;28/02/2026
+W. R. Berkley Corporation;WRB;1.2;730.0;31.48;68.333;28/02/2026
+W. W. Grainger;GWW;1.2;730.0;69.11;1138.25;28/02/2026
+Wabtec;WAB;1.2;730.0;53.02;286.833;28/02/2026
+Walmart;WMT;1.2;730.0;63.19;135.902;28/02/2026
+Walt Disney Company (The);DIS;1.2;730.0;40.91;130.571;28/02/2026
+Warner Bros. Discovery;WBD;1.2;730.0;89.46;29.339;28/02/2026
+Waste Management;WM;1.2;730.0;239.38;252.72;28/02/2026
+Waters Corporation;WAT;1.2;730.0;60.28;398.048;28/02/2026
+WEC Energy Group;WEC;1.2;730.0;159.33;121.735;28/02/2026
+Wells Fargo;WFC;1.2;730.0;;101.646;28/02/2026
+Welltower;WELL;1.2;730.0;49.49;225.65;28/02/2026
+West Pharmaceutical Services;WST;1.2;730.0;10.27;318.357;28/02/2026
+Western Digital;WDC;1.2;730.0;;321.0;28/02/2026
+Weyerhaeuser;WY;1.2;730.0;60.69;31.636;28/02/2026
+"Williams-Sonoma; Inc.";WSM;1.2;730.0;70.88;204.789;28/02/2026
+Williams Companies;WMB;1.2;730.0;197.03;75.509;28/02/2026
+Willis Towers Watson;WTW;1.2;730.0;85.75;371.211;28/02/2026
+"Workday; Inc.";WDAY;1.2;730.0;48.96;188.861;28/02/2026
+Wynn Resorts;WYNN;1.2;730.0;;141.833;28/02/2026
+Xcel Energy;XEL;1.2;730.0;152.83;88.941;28/02/2026
+Xylem Inc.;XYL;1.2;730.0;21.07;158.412;28/02/2026
+Yum! Brands;YUM;1.2;730.0;;171.75;28/02/2026
+Zebra Technologies;ZBRA;1.2;730.0;75.17;339.189;28/02/2026
+Zimmer Biomet;ZBH;1.2;730.0;61.97;102.652;28/02/2026
+Zoetis;ZTS;1.2;730.0;279.59;151.0;28/02/2026
+B2Gold;BTG;1.0;730.0;16.43;6.72;28/02/2026
+i-80 Gold;IAUX;1.0;730.0;51.75;0.628;28/02/2026
+NexGen Energy;NXE;1.0;730.0;65.08;1.751;28/02/2026
+McEwen Mining;MUX;1.0;730.0;26.14;27.3;28/02/2026
+Energy Fuels;UUUU;1.0;730.0;98.99;26.75;28/02/2026
+Standard Lithium;SLI;1.0;730.0;0.17;5.518;28/02/2026
+Galiano Gold;GAU;1.0;730.0;16.73;4.25;28/02/2026
+Uranium Roy;UROY;1.0;730.0;0.06;4.6;28/02/2026
+Denison Mines;DNN;1.0;730.0;148.55;5.01;28/02/2026
+Plat Group;PLG;1.0;730.0;0.27;0.569;28/02/2026
+The Metals Co;TMC;1.0;730.0;;11.2;28/02/2026
+Hycroft Min;HYMC;1.0;730.0;282.69;1.305;28/02/2026
+Vista Gold;VGZ;1.0;730.0;;5.0;28/02/2026
+Paramount Au;PZG;1.0;730.0;65.79;3.25;28/02/2026
+Osino Res;OSI.V;1.0;730.0;;;28/02/2026
+Argonaut Gold;AR.TO;1.0;730.0;;;28/02/2026
+Western Uranium;WUC.CN;1.0;730.0;;0.876;28/02/2026
+Amer Lithium;LI.V;1.0;730.0;0.03;0.95;28/02/2026
+Victoria Gold;VGCX.TO;1.0;730.0;;;28/02/2026
+Montero Mining;MON.V;1.0;730.0;;0.625;28/02/2026
+Vision Lithium;VLI.V;1.0;730.0;0.13;0.066;28/02/2026
+FPX Nickel;FPX.V;1.0;730.0;0.27;1.149;28/02/2026
+Sayona Min;SYA.AX;1.0;730.0;;;
+De Grey Min;DEG.AX;1.0;730.0;;;28/02/2026
+Core Lithium;CXO.AX;1.0;730.0;1.24;0.258;28/02/2026
+Paladin Energy;PDN.AX;1.0;730.0;17.73;12.268;28/02/2026
+Lake Resources;LKE.AX;1.0;730.0;1.05;0.13;28/02/2026
+Gold Mountain;GMN.AX;1.0;730.0;;0.153;28/02/2026
+Larvotto Res;LRV.AX;1.0;730.0;16.3;0.14;28/02/2026
+Auric Mining;AWJ.AX;1.0;730.0;;0.73;28/02/2026
+Nickel Ind;NIC.AX;1.0;730.0;49.87;1.177;28/02/2026
+Jupiter Mines;JMS.AX;1.0;730.0;0.05;0.29;28/02/2026
+Silver X Mining;AGX.V;1.0;730.0;8.11;1.346;28/02/2026
+GoldMining Can;GOLD.TO;2.0;730.0;0.18;1.326;28/02/2026
+GoldMining USA;GLDG;1.0;730.0;0.18;3.332;28/02/2026
+Dolly Varden;DV.V;1.0;730.0;;13.948;28/02/2026
+Excellon Res;EXN.TO;1.0;730.0;;;28/02/2026
+Guanajuato Ag;GSVR.V;1.0;730.0;90.36;0.875;28/02/2026
+TomaGold;LOT.V;1.0;730.0;;-0.005;28/02/2026
+Americas Gold;USA.TO;1.0;730.0;125.01;15.6;28/02/2026
+Stelmine Can;STH.V;1.0;730.0;;;
+Gold Reserve;GRZ;1.0;730.0;;;28/02/2026
+North Dynasty;NAK;1.0;730.0;5.22;2.522;28/02/2026
+US Gold Corp;USAU;1.0;730.0;0.34;30.6;28/02/2026
+Solitario Res;XPL;1.0;730.0;0.07;1.5;28/02/2026
+Argosy Min;AGY.AX;1.0;730.0;0.18;0.076;28/02/2026
+Green Tech;GT1.AX;1.0;730.0;0.2;0.119;28/02/2026
+Gascoyne Res;GCY.AX;1.0;730.0;;;28/02/2026
