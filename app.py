@@ -6,6 +6,175 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime, timedelta
 from sklearn.linear_model import LinearRegression
+import os
+
+# --- CONFIGURATION ---
+st.set_page_config(page_title="Analyse Stratégique & Opportunity", layout="wide")
+
+
+def load_config():
+    if os.path.exists("config_tickers.csv"):
+        # On utilise 'Days' comme convenu
+        return pd.read_csv("config_tickers.csv", sep=";")
+    return pd.DataFrame({'Nom': ['Air Liquide'], 'Ticker': ['AI.PA'], 'Coef': [1.0], 'Days': [730]})
+
+
+def calculer_cycle_majeur(df, ecart_canal):
+    """
+    Calcule le délai moyen entre les sorties réelles du canal
+    en utilisant l'ecart_canal personnalisé (std * coef du titre)
+    """
+    c_haut = df['Reg'] + ecart_canal
+    c_bas = df['Reg'] - ecart_canal
+
+    # Identification des sorties réelles sur VOTRE canal
+    sorties = df[(df['Close'] > c_haut) | (df['Close'] < c_bas)].index
+
+    if len(sorties) < 2:
+        return 60  # Valeur par défaut si l'action est trop sage
+
+    # Filtrage pour ne garder que le début de chaque incursion (seuil 10j)
+    points_cles = [sorties[0]]
+    for i in range(1, len(sorties)):
+        if (sorties[i] - sorties[i - 1]).days > 10:
+            points_cles.append(sorties[i])
+
+    if len(points_cles) > 1:
+        # Temps moyen pour un aller-retour complet
+        intervalles = [(points_cles[i] - points_cles[i - 1]).days for i in range(1, len(points_cles))]
+        return np.mean(intervalles) * 2
+    return 60
+
+
+if 'config_df' not in st.session_state:
+    st.session_state.config_df = load_config()
+
+# --- SIDEBAR & COMBOBOX ---
+st.sidebar.title("🏛️ Menu & Opportunity")
+df_conf = st.session_state.config_df
+liste_recherche = [f"{row['Nom']} [{row['Ticker']}]" for _, row in df_conf.iterrows()]
+selected_label = st.sidebar.selectbox("Rechercher une valeur", liste_recherche)
+
+selected_nom = selected_label.split(" [")[0]
+row = df_conf[df_conf['Nom'] == selected_nom].iloc[0]
+
+# Paramètres (Utilisation de 'Days' du CSV)
+vol_mult = st.sidebar.slider("Écart Canal (Coef)", 0.5, 4.0, float(row['Coef']))
+days_hist = st.sidebar.slider("Historique (jours)", 60, 1500, int(row['Days']))
+ma_short = st.sidebar.slider("Moyenne Courte", 5, 100, 20)
+ma_long = st.sidebar.slider("Moyenne Longue", 20, 300, 50)
+
+# --- CHARGEMENT DONNÉES ---
+ticker = row['Ticker']
+df_raw = yf.download(ticker, start=datetime.now() - timedelta(days=days_hist), progress=False, auto_adjust=True)
+
+if not df_raw.empty:
+    close_vals = df_raw['Close'].iloc[:, 0] if isinstance(df_raw['Close'], pd.DataFrame) else df_raw['Close']
+    df = pd.DataFrame({'Close': close_vals})
+
+    # 1. RÉGRESSION LONG TERME (LT)
+    df['X'] = np.arange(len(df))
+    model_lt = LinearRegression().fit(df[['X']].values, df['Close'].values)
+    df['Reg'] = model_lt.predict(df[['X']].values)
+    pente_lt = model_lt.coef_[0]
+    std_base = (df['Close'] - df['Reg']).std()
+
+    # On définit l'écart réel utilisé pour le trading
+    ecart_reel = std_base * vol_mult
+    df['Upper'] = df['Reg'] + ecart_reel
+    df['Lower'] = df['Reg'] - ecart_reel
+
+    # 2. PENTE COURT TERME (30j)
+    prices_ct = df['Close'].values[-30:]
+    model_ct = LinearRegression().fit(np.arange(len(prices_ct)).reshape(-1, 1), prices_ct)
+    pente_ct = model_ct.coef_[0]
+
+    # 3. CALCUL DU CYCLE (Basé sur le Coef choisi)
+    cycle_jours = calculer_cycle_majeur(df, ecart_reel)
+
+    # 4. RSI
+    diff = df['Close'].diff()
+    gain = (diff.where(diff > 0, 0)).rolling(14).mean()
+    loss = (-diff.where(diff < 0, 0)).rolling(14).mean()
+    df['RSI'] = 100 - (100 / (1 + gain / (loss + 1e-9)))
+    last_rsi = df['RSI'].iloc[-1]
+
+    # 5. LOGIQUE OPPORTUNITY & MARGE
+    last_price = df['Close'].iloc[-1]
+    last_reg = df['Reg'].iloc[-1]
+    projection_reg = last_reg + (pente_lt * cycle_jours)
+
+    status = "Neutre"
+    marge_estimee = 0.0
+
+    if last_price < (last_reg - ecart_reel) and last_rsi < 35:
+        cible = projection_reg + ecart_reel  # Cible = Borne haute du futur
+        marge_estimee = (cible - last_price) / last_price
+        if marge_estimee >= 0.05:
+            status = "🔥 ACHAT URGENT" if pente_ct > pente_lt * 2 else "🟢 ACHAT"
+        else:
+            status = "🟠 ATTENDRE"
+
+    elif last_price > (last_reg + ecart_reel) and last_rsi > 65:
+        cible = projection_reg - ecart_reel  # Cible = Borne basse du futur
+        marge_estimee = (last_price - cible) / last_price
+        if marge_estimee >= 0.05:
+            status = "💥 VENTE URGENTE" if (pente_ct < pente_lt * 2 and pente_ct < 0) else "🔴 VENTE"
+        else:
+            status = "🔵 CONSERVER"
+
+
+    # --- AFFICHAGE ---
+    def get_color(s):
+        return {"🔥 ACHAT URGENT": "#00FF00", "💥 VENTE URGENTE": "#FF0000", "🟢 ACHAT": "#ADFF2F",
+                "🔴 VENTE": "#FF4500"}.get(s, "#FFFFFF")
+
+
+    st.markdown(f"<h1 style='text-align: center; color: {get_color(status)};'>{status}</h1>", unsafe_allow_html=True)
+
+    m1, m2, m3, m4 = st.columns(4)
+    m1.metric("Prix", f"{last_price:.3f}")
+    m2.metric("Marge Projetée", f"{marge_estimee * 100:.1f}%")
+    m3.metric("Cycle (sur Coef)", f"{int(cycle_jours)} j")
+    m4.metric("RSI", f"{int(last_rsi)}")
+
+    # Graphique
+    fig = make_subplots(rows=3, cols=1, shared_xaxes=True, vertical_spacing=0.03, row_heights=[0.5, 0.3, 0.2])
+    fig.add_trace(go.Scatter(x=df.index, y=df['Close'], name="Prix", line=dict(color='white', width=1.5)), row=1, col=1)
+    fig.add_trace(go.Scatter(x=df.index, y=df['Reg'], name="Tendance", line=dict(color='orange', dash='dot')), row=1,
+                  col=1)
+    fig.add_trace(go.Scatter(x=df.index, y=df['Upper'], name="Canal +", line=dict(color='rgba(255,0,0,0.2)', width=0)),
+                  row=1, col=1)
+    fig.add_trace(go.Scatter(x=df.index, y=df['Lower'], name="Canal -", fill='tonexty', fillcolor='rgba(0,255,0,0.05)',
+                             line=dict(color='rgba(0,255,0,0.2)', width=0)), row=1, col=1)
+
+    # Moyennes Mobiles
+    df['MA_S'] = df['Close'].rolling(ma_short).mean()
+    df['MA_L'] = df['Close'].rolling(ma_long).mean()
+    fig.add_trace(go.Scatter(x=df.index, y=df['MA_S'], name=f"MA {ma_short}", line=dict(color='cyan')), row=2, col=1)
+    fig.add_trace(go.Scatter(x=df.index, y=df['MA_L'], name=f"MA {ma_long}", line=dict(color='magenta')), row=2, col=1)
+
+    # RSI
+    fig.add_trace(go.Scatter(x=df.index, y=df['RSI'], name="RSI", line=dict(color='yellow')), row=3, col=1)
+    fig.add_hline(y=70, line_dash="dash", line_color="red", row=3, col=1)
+    fig.add_hline(y=30, line_dash="dash", line_color="green", row=3, col=1)
+
+    fig.update_layout(height=850, template="plotly_dark", hovermode="x unified")
+    st.plotly_chart(fig, width='stretch')
+
+    st.sidebar.markdown(f"**Pente LT ({days_hist}j) :** `{pente_lt:.6f}`")
+    st.sidebar.markdown(f"**Pente CT (30j) :** `{pente_ct:.6f}`")
+
+else:
+    st.error("Données indisponibles.")
+import streamlit as st
+import yfinance as yf
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+from datetime import datetime, timedelta
+from sklearn.linear_model import LinearRegression
 from scipy.signal import find_peaks
 import os
 
