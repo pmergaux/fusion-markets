@@ -2,8 +2,9 @@ import streamlit as st
 import os
 import pandas as pd
 
+from app_admin import ticker_sel
 # Import des modules
-from engine_data import get_clean_data, get_fundamentals
+from engine_data import get_clean_data, get_robust_fundamentals
 from engine_strategy import (compute_technical_analysis, calculate_cycle,
                              get_final_decision, prepare_visual_metrics)
 from ui_components import (display_sidebar_controls, display_status_header,
@@ -21,9 +22,16 @@ if 'config_df' not in st.session_state:
 
 # 2. Sidebar Modulaire (Récupère ticker, coef, days, ma_s, ma_l)
 params = display_sidebar_controls(st.session_state.config_df)
-
+df_config = st.session_state.config_df
+ticker_sel = params['ticker']
+# 3. Identification de la ligne
+indices = df_config.index[df_config['Ticker'] == ticker_sel].tolist()
+if not indices:
+    st.error(f"Le ticker {ticker_sel} n'est pas dans le CSV.")
+    st.stop()
 # 3. Récupération des données
 df, t_obj = get_clean_data(params['ticker'], params['days'])
+idx_ligne = indices[0]
 
 if df is not None:
     # 4. Calculs Stratégiques
@@ -33,7 +41,7 @@ if df is not None:
     df['Upper'], df['Lower'] = df['Reg'] + ecart, df['Reg'] - ecart
 
     cycle_j, n_sorties = calculate_cycle(df, ecart)
-    funds = get_fundamentals(t_obj, params['ticker'])
+    funds = get_robust_fundamentals(ticker_sel, df.iloc[idx_ligne])
 
     # 5. Calcul des indicateurs visuels (Dette et Valo)
     last_price = df['close'].iloc[-1]
