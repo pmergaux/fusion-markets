@@ -2,7 +2,6 @@ import streamlit as st
 import os
 import pandas as pd
 
-from app_admin import ticker_sel
 # Import des modules
 from engine_data import get_clean_data, get_robust_fundamentals
 from engine_strategy import (compute_technical_analysis, calculate_cycle,
