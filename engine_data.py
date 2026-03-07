@@ -33,21 +33,85 @@ def compute_indicators(df, ma_s=20, ma_l=50):
 
 
 def get_fundamentals(t_obj, ticker_sym):
-    """ Centralise la recherche de la dette et de la valorisation """
-    fin_data = t_obj.financial_data
-    if isinstance(fin_data, dict) and ticker_sym in fin_data:
-        data = fin_data[ticker_sym]
-        if not isinstance(data, dict): data = {}
-    else:
-        data = {}
+    # On force la récupération des modules financiers
+    all_modules = t_obj.get_modules('financialData recommendationTrend')
 
-    target = data.get('targetMeanPrice')
-    if not target:
-        trend = t_obj.recommendation_trend
-        if isinstance(trend, dict) and ticker_sym in trend:
-            target = trend[ticker_sym].get('targetMeanPrice')
+    # On initialise avec des valeurs par défaut
+    funds_res = {"debtToEquity": None, "targetPrice": 0}
+
+    # 1. Vérification : est-ce qu'on a reçu un dictionnaire pour ce ticker ?
+    if isinstance(all_modules, dict) and ticker_sym in all_modules:
+        data = all_modules[ticker_sym]
+
+        # 2. Sécurité CRUCIALE : on vérifie que 'data' est bien un dictionnaire
+        # Si c'est un 'str', l'erreur AttributeError sera évitée ici
+        if isinstance(data, dict):
+            # Extraction sécurisée de la dette
+            funds_res["debtToEquity"] = data.get('debtToEquity')
+
+            # Extraction du prix cible
+            target = data.get('targetMeanPrice')
+
+            # Plan B si target est vide : chercher dans recommendationTrend
+            if not target:
+                trend = data.get('recommendationTrend')
+                if isinstance(trend, dict):
+                    target = trend.get('targetMeanPrice', 0)
+
+            # Conversion finale en float pour éviter les surprises
+            try:
+                funds_res["targetPrice"] = float(target) if target else 0
+            except (ValueError, TypeError):
+                funds_res["targetPrice"] = 0
+
+    return funds_res
+
+
+import yfinance as yf
+
+def get_robust_fundamentals(ticker_sym, csv_row):
+    """
+    Tente de récupérer les infos par priorité décroissante :
+    1. YahooQuery (Source principale rapide)
+    2. yfinance (Source de secours)
+    3. Fichier CSV (Roue de secours si internet renvoie N/A)
+    """
+    final_target = 0
+    final_debt = None
+
+    # --- SOURCE 1 : YAHOOQUERY ---
+    try:
+        t_yq = Ticker(ticker_sym)
+        modules = t_yq.get_modules('financialData')
+        if isinstance(modules, dict) and ticker_sym in modules:
+            data = modules[ticker_sym]
+            if isinstance(data, dict):
+                final_target = data.get('targetMeanPrice', 0)
+                final_debt = data.get('debtToEquity')
+    except:
+        pass
+
+    # --- SOURCE 2 : YFINANCE (si toujours vide) ---
+    if not final_target or final_debt is None:
+        try:
+            t_yf = yf.Ticker(ticker_sym)
+            info = t_yf.info
+            if not final_target:
+                final_target = info.get('targetMeanPrice', 0) or info.get('targetLowPrice', 0)
+            if final_debt is None:
+                final_debt = info.get('debtToEquity')
+        except:
+            pass
+
+    # --- SOURCE 3 : FICHIER CSV (Dernier recours) ---
+    # Si après les deux API on n'a toujours rien, on prend ce qu'il y a dans le CSV
+    if not final_target:
+        final_target = csv_row.get('Fair_Value', 0)
+
+    if final_debt is None:
+        final_debt = csv_row.get('DE_Ratio', None)
 
     return {
-        "debtToEquity": data.get('debtToEquity'),
-        "targetPrice": float(target) if target else 0
+        "targetPrice": float(final_target) if final_target else 0,
+        "debtToEquity": float(final_debt) if (final_debt and final_debt > 0) else None
     }
