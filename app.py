@@ -25,7 +25,7 @@ df_config = st.session_state.config_df
 ticker_sel = params['ticker']
 # 3. Identification de la ligne
 indices = df_config.index[df_config['Ticker'] == ticker_sel].tolist()
-if not indices:
+if not indices or len(indices) == 0:
     st.error(f"Le ticker {ticker_sel} n'est pas dans le CSV.")
     st.stop()
 # 3. Récupération des données
@@ -40,7 +40,7 @@ if df is not None:
     df['Upper'], df['Lower'] = df['Reg'] + ecart, df['Reg'] - ecart
 
     cycle_j, n_sorties = calculate_cycle(df, ecart)
-    funds = get_robust_fundamentals(ticker_sel, df.iloc[idx_ligne])
+    funds = get_robust_fundamentals(ticker_sel, df_config.iloc[idx_ligne])
 
     # 5. Calcul des indicateurs visuels (Dette et Valo)
     last_price = df['close'].iloc[-1]
