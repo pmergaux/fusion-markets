@@ -5,15 +5,35 @@ from yahooquery import Ticker
 
 
 def get_clean_data(ticker_sym, days):
-    """ Récupère et nettoie les données de YahooQuery """
-    t = Ticker(ticker_sym)
-    df_raw = t.history(period=f"{days}d", interval="1d")
-    if df_raw.empty: return None, None
+    """ Récupère et nettoie les données de YahooQuery de manière sécurisée """
+    try:
+        t = Ticker(ticker_sym)
+        df_raw = t.history(period=f"{days}d", interval="1d")
 
-    df = df_raw.loc[ticker_sym].copy() if isinstance(df_raw.index, pd.MultiIndex) else df_raw.copy()
-    df.index = pd.to_datetime(df.index, utc=True).tz_localize(None)
-    return df, t
+        # 1. Si yahooquery renvoie un dict (erreur/pas de données) ou un type inattendu
+        if not isinstance(df_raw, pd.DataFrame) or df_raw.empty:
+            return None, None
 
+        # 2. Gestion du MultiIndex (propre à yahooquery selon les versions)
+        if isinstance(df_raw.index, pd.MultiIndex):
+            if ticker_sym in df_raw.index.get_level_values(0):
+                df = df_raw.loc[ticker_sym].copy()
+            else:
+                return None, None
+        else:
+            df = df_raw.copy()
+
+        # Vérification si le DataFrame final possède des données exploitables
+        if df.empty or 'close' not in df.columns:
+            return None, None
+
+        # Nettoyage des index temporels
+        df.index = pd.to_datetime(df.index, utc=True).tz_localize(None)
+        return df, t
+
+    except Exception as e:
+        # Capture toutes les erreurs de yahooquery (KeyError, erreurs réseau, etc.)
+        return None, None
 
 def compute_indicators(df, ma_s=20, ma_l=50):
     """ Calcule tous les indicateurs techniques sur le DataFrame """
